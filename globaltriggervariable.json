@@ -256,6 +256,7 @@
                     "\u73a9\u5bb6": 0
                 }, 
                 "TABLE": {
+                    "\u5355\u673a\u73a9\u5bb6\u76ae\u80a4\u4f7f\u7528\u8868": null, 
                     "\u6218\u7ee9\u8868\u5b58\u6863": null, 
                     "\u73a9\u5bb6\u76ae\u80a4\u9053\u5177\u8868": null
                 }, 
@@ -278,6 +279,7 @@
                 "wj": 0, 
                 "wjid": 0, 
                 "zyid": 0, 
+                "\u5355\u673a\u73a9\u5bb6\u76ae\u80a4\u4f7f\u7528\u8868": 0, 
                 "\u6218\u7ee9\u8868\u5b58\u6863": 0, 
                 "\u6574\u65702": 0, 
                 "\u65b0\u4e0b\u6807": 0, 
@@ -3423,6 +3425,30 @@
                 "\u529f\u6cd5\u7269\u54c1\u7ec4": 10, 
                 "\u5916\u5faa\u73af\u529f\u6cd5": 0, 
                 "\u5f53\u524d\u529f\u6cd5\u540d\u79f0": 0
+            }
+        }, 
+        "1771299095": {
+            "variable_dict": {
+                "INTEGER": {
+                    "\u76ae\u80a4\u4f4d\u7f6e": 0, 
+                    "\u82f1\u96c4id": 0
+                }, 
+                "PLAYER": {
+                    "\u73a9\u5bb6": 0
+                }, 
+                "TABLE": {
+                    "\u5355\u673a\u73a9\u5bb6\u76ae\u80a4\u4f7f\u7528\u8868": null
+                }, 
+                "UNIT_NAME": {
+                    "dw_type": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "dw_type": 0, 
+                "\u5355\u673a\u73a9\u5bb6\u76ae\u80a4\u4f7f\u7528\u8868": 0, 
+                "\u73a9\u5bb6": 0, 
+                "\u76ae\u80a4\u4f4d\u7f6e": 0, 
+                "\u82f1\u96c4id": 0
             }
         }, 
         "1771921608": {

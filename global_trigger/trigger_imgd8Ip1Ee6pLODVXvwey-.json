@@ -17753,7 +17753,7 @@
                         {
                             "arg_type": 100032, 
                             "args_list": [
-                                134247610
+                                134223478
                             ], 
                             "sub_type": 1
                         }
@@ -17785,7 +17785,7 @@
                         {
                             "arg_type": 100032, 
                             "args_list": [
-                                134247610
+                                134223478
                             ], 
                             "sub_type": 1
                         }
@@ -17817,7 +17817,7 @@
                         {
                             "arg_type": 100032, 
                             "args_list": [
-                                134247610
+                                134223478
                             ], 
                             "sub_type": 1
                         }
@@ -17849,7 +17849,7 @@
                         {
                             "arg_type": 100032, 
                             "args_list": [
-                                134247610
+                                134223478
                             ], 
                             "sub_type": 1
                         }
@@ -34270,6 +34270,395 @@
             "trigger_name": "\u6d88\u8017\u76ae\u80a4\u9053\u5177", 
             "valid": true
         }, 
+        "1771299095": {
+            "action": [
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "PLAYER", 
+                                                "\u73a9\u5bb6", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "8a2065b0b4ea11eeb278c87f54ac1032"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 83476728996513, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "TABLE", 
+                                        "\u5355\u673a\u73a9\u5bb6\u76ae\u80a4\u4f7f\u7528\u8868", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100011, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "PLAYER", 
+                                                "\u73a9\u5bb6", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100247, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_PLAYER_SAVE_DATA_TABLE_VALUE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1903862004569278, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "\u76ae\u80a4\u4f4d\u7f6e", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "TABLE", 
+                                                "\u5355\u673a\u73a9\u5bb6\u76ae\u80a4\u4f7f\u7528\u8868", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "\u82f1\u96c4id", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "\u76ae\u80a4\u4f4d\u7f6e"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_INTEGER_TABLE_VAR_ND"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1771299095000020, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_NAME", 
+                                        "dw_type", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_NAME", 
+                                        "\u82f1\u96c4"
+                                    ]
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "\u82f1\u96c4id", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1771299095000025, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "IF_THEN_ELSE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100021, 
+                            "args_list": [
+                                {
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "\u76ae\u80a4\u4f4d\u7f6e", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }, 
+                                        {
+                                            "arg_type": 100015, 
+                                            "args_list": [
+                                                ">"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                0
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "condition_type": "FLOAT_COMPARE", 
+                                    "element_id": 1771299095000037, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100030, 
+                                            "args_list": [
+                                                [
+                                                    "UNIT_NAME", 
+                                                    "dw_type", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100116, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100011, 
+                                                    "args_list": [
+                                                        "ca4eaaf6-5988-45c2-b4e9-8af2f89a824d"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "\u82f1\u96c4id", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "INTEGER", 
+                                                                        "\u76ae\u80a4\u4f4d\u7f6e", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 6
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                }
+                                            ], 
+                                            "sub_type": "GET_UNIT_NAME_TABLE_VAR_ND"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1771299095000042, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1771299095000028, 
+                    "enable": true, 
+                    "fake_op": [
+                        2
+                    ]
+                }, 
+                {
+                    "action_type": 400342, 
+                    "args_list": [
+                        {
+                            "arg_type": 100116, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_NAME", 
+                                        "dw_type", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1771299095000001, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [], 
+            "func_category": "t_function", 
+            "func_comment": "", 
+            "func_des": "\u51fd\u6570\u63cf\u8ff0{\u73a9\u5bb6}{\u82f1\u96c4id}", 
+            "func_id": "928ff19eba6e11ee8be9581122c7feb9", 
+            "func_name": "\u83b7\u53d6\u5f53\u524d\u751f\u6548\u7684\u76ae\u80a4", 
+            "func_param_list": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u73a9\u5bb6", 
+                        true
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u82f1\u96c4id", 
+                        true
+                    ]
+                }
+            ], 
+            "func_return": true, 
+            "func_rtv_name_list": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u76ae\u80a4\u5355\u4f4d\u7c7b\u578b", 
+                        "UNIT_NAME"
+                    ]
+                }
+            ], 
+            "group_id": "imgd8Ip1Ee6pLODVXvwey-", 
+            "is_func": true, 
+            "is_official_func": false, 
+            "p_trigger_id": null, 
+            "trigger_id": 1771299095, 
+            "trigger_name": "\u83b7\u53d6\u5f53\u524d\u751f\u6548\u7684\u76ae\u80a4", 
+            "valid": true
+        }, 
         "1892561142": {
             "action": [
                 {
@@ -36509,6 +36898,13 @@
                 "items": [
                     55550215, 
                     "\u8bbe\u7f6e\u529f\u6cd5\u5c5e\u6027"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1771299095, 
+                    "\u83b7\u53d6\u5f53\u524d\u751f\u6548\u7684\u76ae\u80a4"
                 ]
             }
         ], 

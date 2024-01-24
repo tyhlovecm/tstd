@@ -3574,7 +3574,7 @@
             "group_id": "xP-eXqoHEe6a9sh-VKwQMt", 
             "p_trigger_id": null, 
             "trigger_id": 1638383894, 
-            "trigger_name": "\u663e\u793a\u8d5b\u5b63\u4fe1\u606f", 
+            "trigger_name": "\u9996\u9875\u5176\u4ed6\u4fe1\u606f", 
             "valid": true
         }, 
         "1679438034": {
@@ -8580,7 +8580,7 @@
                 "__tuple__": true, 
                 "items": [
                     1638383894, 
-                    "\u663e\u793a\u8d5b\u5b63\u4fe1\u606f"
+                    "\u9996\u9875\u5176\u4ed6\u4fe1\u606f"
                 ]
             }
         ], 
