@@ -16626,7 +16626,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1080221861000001, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "PICK_UNIT_DO_ACTION", 
@@ -23548,25 +23548,6 @@
             "p_trigger_id": null, 
             "trigger_id": 1318641870, 
             "trigger_name": "\u586b\u5145\u529f\u6cd5\u80cc\u5305", 
-            "valid": true
-        }, 
-        "1349607591": {
-            "action": [], 
-            "call_enabled": true, 
-            "condition": [], 
-            "enabled": true, 
-            "event": [], 
-            "func_category": "t_function", 
-            "func_comment": "", 
-            "func_des": "\u51fd\u6570\u63cf\u8ff0", 
-            "func_id": "f919a10f965f11eebcbee0d55efc1ecb", 
-            "func_name": "\u73a9\u5bb6\u5efa\u7b51\u5750\u6807\u6392\u5e8f", 
-            "group_id": "imgd8Ip1Ee6pLODVXvwey-", 
-            "is_func": true, 
-            "is_official_func": false, 
-            "p_trigger_id": null, 
-            "trigger_id": 1349607591, 
-            "trigger_name": "\u73a9\u5bb6\u5efa\u7b51\u5750\u6807\u6392\u5e8f", 
             "valid": true
         }, 
         "1353687227": {
@@ -36416,13 +36397,6 @@
                 "items": [
                     1080221861, 
                     "\u5220\u9664\u73a9\u5bb6\u82f1\u96c4\u5efa\u7b51"
-                ]
-            }, 
-            {
-                "__tuple__": true, 
-                "items": [
-                    1349607591, 
-                    "\u73a9\u5bb6\u5efa\u7b51\u5750\u6807\u6392\u5e8f"
                 ]
             }, 
             {

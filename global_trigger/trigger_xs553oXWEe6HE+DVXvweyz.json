@@ -2,6 +2,87 @@
     "trigger_dict": {
         "9355431": {
             "action": [
+                [
+                    1326166730, 
+                    "###\u6e38\u620f\u65f6\u957f\u8ba1\u7b97####", 
+                    9355431, 
+                    "action_type"
+                ], 
+                {
+                    "action_type": "RUN_LOOP_TIMER_NO_SAVE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                60.0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "SET_VARIABLE", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100030, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "\u6e38\u620f\u65f6\u957f"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "INTEGER", 
+                                                                "\u6e38\u620f\u65f6\u957f"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 6
+                                                }
+                                            ], 
+                                            "sub_type": "INT_PLUS_ONE"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 9355431986816, 
+                                    "enable": true
+                                }
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 9355431986805, 
+                    "enable": true, 
+                    "local_var": {
+                        "__tuple__": true, 
+                        "items": [
+                            {}, 
+                            {}
+                        ]
+                    }
+                }, 
                 {
                     "action_type": "SET_VARIABLE", 
                     "args_list": [
@@ -12075,88 +12156,6 @@
                                             "arg_type": 100022, 
                                             "args_list": [
                                                 {
-                                                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100175, 
-                                                            "args_list": [
-                                                                3
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100003, 
-                                                            "args_list": [
-                                                                {
-                                                                    "arg_type": 100002, 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "arg_type": 100002, 
-                                                                            "args_list": [
-                                                                                {
-                                                                                    "arg_type": 100002, 
-                                                                                    "args_list": [
-                                                                                        {
-                                                                                            "__tuple__": true, 
-                                                                                            "items": [
-                                                                                                "INTEGER", 
-                                                                                                "i", 
-                                                                                                "local"
-                                                                                            ]
-                                                                                        }
-                                                                                    ], 
-                                                                                    "sub_type": 6
-                                                                                }, 
-                                                                                {
-                                                                                    "arg_type": 100016, 
-                                                                                    "args_list": [
-                                                                                        "*"
-                                                                                    ], 
-                                                                                    "sub_type": 1
-                                                                                }, 
-                                                                                {
-                                                                                    "arg_type": 100002, 
-                                                                                    "args_list": [
-                                                                                        100
-                                                                                    ], 
-                                                                                    "sub_type": 1
-                                                                                }
-                                                                            ], 
-                                                                            "sub_type": "MATH_OPERATION"
-                                                                        }, 
-                                                                        {
-                                                                            "arg_type": 100016, 
-                                                                            "args_list": [
-                                                                                "+"
-                                                                            ], 
-                                                                            "sub_type": 1
-                                                                        }, 
-                                                                        {
-                                                                            "arg_type": 100002, 
-                                                                            "args_list": [
-                                                                                {
-                                                                                    "__tuple__": true, 
-                                                                                    "items": [
-                                                                                        "INTEGER", 
-                                                                                        "j", 
-                                                                                        "local"
-                                                                                    ]
-                                                                                }
-                                                                            ], 
-                                                                            "sub_type": 6
-                                                                        }
-                                                                    ], 
-                                                                    "sub_type": "MATH_OPERATION"
-                                                                }
-                                                            ], 
-                                                            "sub_type": "ANY_VAR_TO_STR"
-                                                        }
-                                                    ], 
-                                                    "bp": false, 
-                                                    "element_id": 1281610002000126, 
-                                                    "enable": false
-                                                }, 
-                                                {
                                                     "action_type": "SET_VARIABLE", 
                                                     "args_list": [
                                                         {
@@ -12440,84 +12439,6 @@
                     1281610002, 
                     "action_type"
                 ], 
-                {
-                    "action_type": "TRAVERSE_TABLE", 
-                    "args_list": [
-                        {
-                            "arg_type": 100011, 
-                            "args_list": [
-                                "bbd82fe5-2958-417f-acb5-17fa8b5eaa47"
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100022, 
-                            "args_list": [
-                                {
-                                    "action_type": "SET_VARIABLE", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100028, 
-                                            "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "INTEGER", 
-                                                        "\u6ce2\u6b21\u91d1\u5e01"
-                                                    ]
-                                                }, 
-                                                {
-                                                    "arg_type": 100002, 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100011, 
-                                                            "args_list": [], 
-                                                            "sub_type": "ITER_TABLE_TABLE_VAR"
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100003, 
-                                                            "args_list": [
-                                                                "key"
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }
-                                                    ], 
-                                                    "sub_type": "GET_INTEGER_TABLE_VAR_1D"
-                                                }
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100002, 
-                                            "args_list": [
-                                                {
-                                                    "arg_type": 100011, 
-                                                    "args_list": [], 
-                                                    "sub_type": "ITER_TABLE_TABLE_VAR"
-                                                }, 
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        "\u91d1\u5e01"
-                                                    ], 
-                                                    "sub_type": 1
-                                                }
-                                            ], 
-                                            "sub_type": "GET_INTEGER_TABLE_VAR_1D"
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 1281610002000131, 
-                                    "enable": true
-                                }
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 1281610002000132, 
-                    "enable": false
-                }, 
                 {
                     "action_type": "SET_VARIABLE", 
                     "args_list": [

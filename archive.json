@@ -53,6 +53,15 @@
             "name": "\u94dc\u94b1", 
             "type": 3, 
             "value": 0
+        }, 
+        "7": {
+            "billboard_max_item_num": 0, 
+            "billboard_sort_type": 0, 
+            "encrypt": false, 
+            "key": 7, 
+            "name": "\u6218\u7ee9\u8868", 
+            "type": 4, 
+            "value": "\u6218\u7ee9\u8868"
         }
     }
 }
