@@ -513,11 +513,11 @@
     "item_billboard_type": 0, 
     "key": 134226080, 
     "kv": {
-        "\u78b0\u649e\u4f53\u79ef": {
+        "\u95ea\u8eb2\u7387": {
             "annotation": "", 
             "desc": "", 
             "etype": 2, 
-            "key": "\u78b0\u649e\u4f53\u79ef", 
+            "key": "\u95ea\u8eb2\u7387", 
             "prop_cls": "PFloat", 
             "remark": "", 
             "sort": 0, 

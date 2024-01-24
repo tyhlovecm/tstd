@@ -18,11 +18,15 @@
                 "TABLE": {
                     "\u6218\u7ee9\u8868": null, 
                     "\u73a9\u5bb6\u76ae\u80a4\u9053\u5177\u8868": null
+                }, 
+                "UNIT_WRITE_ATTRIBUTE": {
+                    "\u5355\u4f4d\u5c5e\u6027": ""
                 }
             }, 
             "variable_length_dict": {
                 "v": 0, 
                 "wjid": 0, 
+                "\u5355\u4f4d\u5c5e\u6027": 0, 
                 "\u6218\u7ee9\u8868": 0, 
                 "\u65b0\u4e0b\u6807": 0, 
                 "\u73a9\u5bb6": 0, 
@@ -1425,6 +1429,57 @@
                 "wj": 0, 
                 "wjid": 0, 
                 "\u73a9\u5bb6": 0
+            }
+        }, 
+        "739234072": {
+            "variable_dict": {
+                "ATTR_ELEMENT_READ": {}, 
+                "FLOAT": {
+                    "\u53d8\u5316\u503c": 0.0, 
+                    "\u5c5e\u6027\u503c": 0.0
+                }, 
+                "INTEGER": {
+                    "i": 0, 
+                    "\u529f\u6cd5\u7c7b\u578b": 0
+                }, 
+                "ITEM_NAME": {
+                    "\u5f53\u524d\u529f\u6cd5": 0
+                }, 
+                "PLAYER": {
+                    "\u73a9\u5bb6": 0
+                }, 
+                "STRING": {
+                    "\u529f\u6cd5\u524d\u7f00": "", 
+                    "\u5c5e\u6027\u540d\u79f0\u5217\u8868": "", 
+                    "\u5c5e\u6027\u540e\u7f00": "", 
+                    "\u5f53\u524d\u529f\u6cd5\u540d\u79f0": ""
+                }, 
+                "TABLE": {
+                    "\u73a9\u5bb6\u529f\u6cd5\u4f7f\u7528\u8868": null
+                }, 
+                "UNIT_ENTITY": {
+                    "\u5f53\u524d\u5355\u4f4d": 0
+                }, 
+                "UNIT_WRITE_ATTRIBUTE": {
+                    "\u5355\u4f4d\u5c5e\u6027": "", 
+                    "\u53d8\u5316\u5c5e\u6027": ""
+                }
+            }, 
+            "variable_length_dict": {
+                "i": 0, 
+                "\u529f\u6cd5\u524d\u7f00": 0, 
+                "\u529f\u6cd5\u7c7b\u578b": 0, 
+                "\u5355\u4f4d\u5c5e\u6027": 10, 
+                "\u53d8\u5316\u503c": 0, 
+                "\u53d8\u5316\u5c5e\u6027": 0, 
+                "\u5c5e\u6027\u503c": 10, 
+                "\u5c5e\u6027\u540d\u79f0\u5217\u8868": 10, 
+                "\u5c5e\u6027\u540e\u7f00": 10, 
+                "\u5f53\u524d\u529f\u6cd5": 0, 
+                "\u5f53\u524d\u529f\u6cd5\u540d\u79f0": 0, 
+                "\u5f53\u524d\u5355\u4f4d": 0, 
+                "\u73a9\u5bb6": 0, 
+                "\u73a9\u5bb6\u529f\u6cd5\u4f7f\u7528\u8868": 0
             }
         }, 
         "755445835": {
