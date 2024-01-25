@@ -30538,7 +30538,7 @@
                                                 {
                                                     "arg_type": 100011, 
                                                     "args_list": [
-                                                        "f382feef-9452-4198-9710-8b3563c66b26"
+                                                        "4c1482e6-98b5-4ec6-a706-799b69b17405"
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -30614,7 +30614,7 @@
                                                 {
                                                     "arg_type": 100011, 
                                                     "args_list": [
-                                                        "f382feef-9452-4198-9710-8b3563c66b26"
+                                                        "4c1482e6-98b5-4ec6-a706-799b69b17405"
                                                     ], 
                                                     "sub_type": 1
                                                 }, 
@@ -33427,7 +33427,7 @@
             "p_trigger_id": null, 
             "trigger_id": 1486098678, 
             "trigger_name": "\u586b\u5145\u901a\u884c\u8bc1\u5956\u52b1\u5355\u9879", 
-            "valid": false
+            "valid": true
         }, 
         "1488118054": {
             "action": [
