@@ -23210,6 +23210,34 @@
             "trigger_name": "\u81ea\u52a8\u53d1\u653e\u901a\u884c\u8bc1\u6708\u5361\u5956\u52b1", 
             "valid": true
         }, 
+        "1272246561": {
+            "action": [], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [], 
+            "func_category": "t_function", 
+            "func_comment": "", 
+            "func_des": "\u51fd\u6570\u63cf\u8ff0{\u73a9\u5bb6}", 
+            "func_id": "5b702ef0bb5f11ee93a5581122c7feb9", 
+            "func_name": "\u901a\u884c\u8bc1\u65e5\u5e38\u4efb\u52a1\u5b58\u6863", 
+            "func_param_list": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u73a9\u5bb6", 
+                        true
+                    ]
+                }
+            ], 
+            "group_id": "imgd8Ip1Ee6pLODVXvwey-", 
+            "is_func": true, 
+            "is_official_func": false, 
+            "p_trigger_id": null, 
+            "trigger_id": 1272246561, 
+            "trigger_name": "\u901a\u884c\u8bc1\u65e5\u5e38\u4efb\u52a1\u5b58\u6863", 
+            "valid": true
+        }, 
         "1318326517": {
             "action": [
                 {
@@ -51876,6 +51904,13 @@
                 "items": [
                     1389543711, 
                     "\u83b7\u53d6\u5f53\u524d\u751f\u6548\u7684\u76ae\u80a4"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1272246561, 
+                    "\u901a\u884c\u8bc1\u65e5\u5e38\u4efb\u52a1\u5b58\u6863"
                 ]
             }
         ], 

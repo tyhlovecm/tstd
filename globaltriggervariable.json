@@ -2398,6 +2398,16 @@
                 "unit": 0
             }
         }, 
+        "1272246561": {
+            "variable_dict": {
+                "PLAYER": {
+                    "\u73a9\u5bb6": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "\u73a9\u5bb6": 0
+            }
+        }, 
         "1272844551": {
             "variable_dict": {
                 "INTEGER": {
