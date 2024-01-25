@@ -701,6 +701,18 @@
             "trigger_name": "\u5546\u5e97", 
             "valid": true
         }, 
+        "1044029728": {
+            "action": [], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [], 
+            "group_id": "oQph8Lm3Ee6LQVgRIsf+uS", 
+            "p_trigger_id": null, 
+            "trigger_id": 1044029728, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
+            "valid": true
+        }, 
         "1063506193": {
             "action": [
                 {
@@ -723,7 +735,7 @@
                         {
                             "arg_type": 100000, 
                             "args_list": [
-                                1.1
+                                1.3
                             ], 
                             "sub_type": 1
                         }
@@ -3905,6 +3917,13 @@
                 "items": [
                     1063506193, 
                     "\u521d\u59cb\u5316\u7535\u8111\u5bf9\u624b"
+                ]
+            }, 
+            {
+                "__tuple__": true, 
+                "items": [
+                    1044029728, 
+                    "\u65b0\u5efa\u89e6\u53d1\u5668"
                 ]
             }
         ], 
