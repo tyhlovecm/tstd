@@ -1896,9 +1896,14 @@
                     "loop": 0, 
                     "\u968f\u673a\u503c": 0
                 }, 
+                "STRING": {
+                    "\u5546\u5e97\u7c7b\u578b": ""
+                }, 
                 "UNIT_NAME": {
                     "dw_type": 0, 
                     "dw_type_temp": 0, 
+                    "\u4e2d\u7acb\u5175": 0, 
+                    "\u4e2d\u7acb\u5175\u79cd\u5355\u4f4d\u7c7b\u578b": 0, 
                     "\u5f85\u5efa\u9020\u5355\u4f4d\u7c7b\u578b": 0, 
                     "\u7535\u8111\u5efa\u9020\u5355\u4f4d\u7c7b\u578b\u6570\u7ec4": 0
                 }
@@ -1912,6 +1917,9 @@
                 "loop": 0, 
                 "use_food_total": 0, 
                 "use_gold_total": 0, 
+                "\u4e2d\u7acb\u5175": 0, 
+                "\u4e2d\u7acb\u5175\u79cd\u5355\u4f4d\u7c7b\u578b": 10, 
+                "\u5546\u5e97\u7c7b\u578b": 0, 
                 "\u5efa\u9020\u8d44\u6e90\u6d88\u8017\u4eba\u53e3": 0, 
                 "\u5efa\u9020\u8d44\u6e90\u6d88\u8017\u91d1\u5e01": 0, 
                 "\u5f85\u5efa\u9020\u5355\u4f4d\u7c7b\u578b": 10, 
@@ -2290,24 +2298,6 @@
                 "j": 0, 
                 "\u91d1\u5e01": 0, 
                 "\u968f\u673a\u89d2\u8272id": 0
-            }
-        }, 
-        "1306398986": {
-            "variable_dict": {
-                "ABILITY_NAME": {
-                    "skid": 0
-                }, 
-                "INTEGER": {
-                    "ty": 0
-                }, 
-                "UNIT_ENTITY": {
-                    "u": 0
-                }
-            }, 
-            "variable_length_dict": {
-                "skid": 0, 
-                "ty": 0, 
-                "u": 0
             }
         }, 
         "1309093943": {
@@ -3400,20 +3390,6 @@
                 "\u901a\u884c\u8bc1\u5217\u8868\u6b63\u5728\u62d6\u62fd": 0
             }
         }, 
-        "1725829387": {
-            "variable_dict": {
-                "ABILITY_NAME": {
-                    "skid": 0
-                }, 
-                "INTEGER": {
-                    "ty": 0
-                }
-            }, 
-            "variable_length_dict": {
-                "skid": 0, 
-                "ty": 0
-            }
-        }, 
         "1755144379": {
             "variable_dict": {
                 "INTEGER": {
@@ -3997,16 +3973,6 @@
                 "wj": 0
             }
         }, 
-        "2011042060": {
-            "variable_dict": {
-                "INTEGER": {
-                    "i": 0
-                }
-            }, 
-            "variable_length_dict": {
-                "i": 0
-            }
-        }, 
         "2013737032": {
             "variable_dict": {
                 "ITEM_NAME": {
@@ -4436,6 +4402,7 @@
         "UNIT_ENTITY": {
             "Builder": null, 
             "PlayerSelectUnit": 0, 
+            "danwei": 0, 
             "tzunit": 0, 
             "\u4e0a\u53e4\u795e\u9f99": 0, 
             "\u73a9\u5bb6\u82f1\u96c4": 0, 
@@ -5985,6 +5952,13 @@
                 "\u6e38\u620f\u65f6\u957f", 
                 "\u6e38\u620f\u65f6\u957f"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "danwei", 
+                "danwei"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -6040,6 +6014,7 @@
         "W\u6570\u91cf": 10, 
         "Z\u6570\u91cf": 10, 
         "choose_num": 0, 
+        "danwei": 0, 
         "iRound": 0, 
         "isEnd": 0, 
         "is_send": 0, 
