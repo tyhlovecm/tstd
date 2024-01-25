@@ -9434,6 +9434,7 @@
                             1080.0
                         ]
                     }, 
+                    "swallow_touches": true, 
                     "type": 4, 
                     "uid": "aaef0f72-8d44-4307-bc77-cdbbc7706a55"
                 }, 
@@ -10894,6 +10895,7 @@
                             120.0
                         ]
                     }, 
+                    "swallow_touches": true, 
                     "type": 7, 
                     "uid": "05803b58-f5aa-4ed9-85aa-ff28045c2497"
                 }, 
@@ -12354,6 +12356,7 @@
                             120.0
                         ]
                     }, 
+                    "swallow_touches": true, 
                     "type": 7, 
                     "uid": "7063422a-553b-4150-bea9-ce549d8a81c2"
                 }, 
@@ -13814,6 +13817,7 @@
                             120.0
                         ]
                     }, 
+                    "swallow_touches": true, 
                     "type": 7, 
                     "uid": "4eb042bc-50e5-4185-8338-79f4099c99b1"
                 }, 
@@ -15267,6 +15271,7 @@
                             120.0
                         ]
                     }, 
+                    "swallow_touches": true, 
                     "type": 7, 
                     "uid": "8df12f4c-cd3e-4a7d-adb4-89344dcd185a"
                 }, 
@@ -16727,6 +16732,7 @@
                             120.0
                         ]
                     }, 
+                    "swallow_touches": true, 
                     "type": 7, 
                     "uid": "f479a81a-1ab3-4f71-8c1c-eedc49f4a241"
                 }, 
@@ -18187,6 +18193,7 @@
                             120.0
                         ]
                     }, 
+                    "swallow_touches": true, 
                     "type": 7, 
                     "uid": "4d372e83-9daa-43a9-b7a1-4fc0228dc1f0"
                 }, 
