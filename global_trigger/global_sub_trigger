@@ -21948,6 +21948,259 @@
                 "enable": true
             }, 
             {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            [
+                                "FLOAT", 
+                                "\u5b58\u6863\u7684\u94dc\u94b1", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100000, 
+                        "args_list": [
+                            {
+                                "arg_type": 100025, 
+                                "args_list": [
+                                    [
+                                        "PLAYER", 
+                                        "\u73a9\u5bb6", 
+                                        "local"
+                                    ]
+                                ], 
+                                "sub_type": "VARIABLE"
+                            }, 
+                            {
+                                "arg_type": 100232, 
+                                "args_list": [
+                                    6
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_PLAYER_SAVE_DATA_FLOAT_VALUE"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 610521354000013, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            [
+                                "INTEGER", 
+                                "\u62bd\u5956\u6d88\u8017\u94dc\u94b1", 
+                                "local"
+                            ]
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100002, 
+                        "args_list": [
+                            {
+                                "arg_type": 100011, 
+                                "args_list": [
+                                    "f3423ee0-7a2f-4435-91d8-37de9f4f708c"
+                                ], 
+                                "sub_type": 1
+                            }, 
+                            {
+                                "arg_type": 100003, 
+                                "args_list": [
+                                    "\u62bd\u5956\u6d88\u8017\u94dc\u94b1"
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "GET_INTEGER_TABLE_VAR_1D"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1281610002000002, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "UI_COMP", 
+                                    "\u4f59\u989d\u63a7\u4ef6", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            "3ea4b6ad-6af1-4de1-99c1-2394bcf8664c"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 750928085930896, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100030, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "UI_COMP", 
+                                    "\u6d88\u8017\u63a7\u4ef6", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            "15dc0ac9-d96e-40fe-b100-5ea5a98426ac"
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 750928085930899, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_UI_COMP_TEXT", 
+                "args_list": [
+                    {
+                        "arg_type": 100027, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "PLAYER_GROUP", 
+                                    "Force1"
+                                ]
+                            }
+                        ], 
+                        "sub_type": 14
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "UI_COMP", 
+                                    "\u4f59\u989d\u63a7\u4ef6", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": "VARIABLE"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100000, 
+                                        "args_list": [
+                                            {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    "FLOAT", 
+                                                    "\u5b58\u6863\u7684\u94dc\u94b1", 
+                                                    "local"
+                                                ]
+                                            }
+                                        ], 
+                                        "sub_type": 2
+                                    }
+                                ], 
+                                "sub_type": "F2I"
+                            }
+                        ], 
+                        "sub_type": "ANY_VAR_TO_STR"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 750928085930907, 
+                "enable": true
+            }, 
+            {
+                "action_type": "SET_UI_COMP_TEXT", 
+                "args_list": [
+                    {
+                        "arg_type": 100027, 
+                        "args_list": [
+                            [
+                                "PLAYER_GROUP", 
+                                "Force1"
+                            ]
+                        ], 
+                        "sub_type": 14
+                    }, 
+                    {
+                        "arg_type": 100070, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "UI_COMP", 
+                                    "\u6d88\u8017\u63a7\u4ef6", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": "VARIABLE"
+                    }, 
+                    {
+                        "arg_type": 100003, 
+                        "args_list": [
+                            {
+                                "arg_type": 100002, 
+                                "args_list": [
+                                    {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "INTEGER", 
+                                            "\u62bd\u5956\u6d88\u8017\u94dc\u94b1", 
+                                            "local"
+                                        ]
+                                    }
+                                ], 
+                                "sub_type": 6
+                            }
+                        ], 
+                        "sub_type": "ANY_VAR_TO_STR"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 750928085930919, 
+                "enable": true
+            }, 
+            {
                 "action_type": "CALL_TRIGGER_FUNC", 
                 "args_list": [
                     {
