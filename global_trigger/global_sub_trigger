@@ -24092,7 +24092,7 @@
                                                                                 "enable": true
                                                                             }, 
                                                                             [
-                                                                                1850285565, 
+                                                                                1208098736, 
                                                                                 "####\u6d88\u8017\u94dc\u94b1###", 
                                                                                 801964247, 
                                                                                 "action_type"
@@ -24136,14 +24136,11 @@
                                                                                             {
                                                                                                 "arg_type": 100002, 
                                                                                                 "args_list": [
-                                                                                                    {
-                                                                                                        "__tuple__": true, 
-                                                                                                        "items": [
-                                                                                                            "INTEGER", 
-                                                                                                            "\u62bd\u5956\u6d88\u8017\u94dc\u94b1", 
-                                                                                                            "local"
-                                                                                                        ]
-                                                                                                    }
+                                                                                                    [
+                                                                                                        "INTEGER", 
+                                                                                                        "\u62bd\u5956\u6d88\u8017\u94dc\u94b1", 
+                                                                                                        "local"
+                                                                                                    ]
                                                                                                 ], 
                                                                                                 "sub_type": 6
                                                                                             }
@@ -24156,448 +24153,304 @@
                                                                                 "enable": true
                                                                             }, 
                                                                             {
-                                                                                "action_type": "SET_VARIABLE", 
+                                                                                "action_type": "IF_THEN_ELSE", 
                                                                                 "args_list": [
                                                                                     {
-                                                                                        "arg_type": 100030, 
+                                                                                        "arg_type": 100021, 
                                                                                         "args_list": [
-                                                                                            [
-                                                                                                "UI_COMP", 
-                                                                                                "\u4e2d\u5956\u63a7\u4ef6", 
-                                                                                                "local"
-                                                                                            ]
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100070, 
-                                                                                        "args_list": [
-                                                                                            [
-                                                                                                "UI_COMP", 
-                                                                                                "kjsz", 
-                                                                                                "local"
-                                                                                            ], 
                                                                                             {
-                                                                                                "arg_type": 100002, 
                                                                                                 "args_list": [
-                                                                                                    [
-                                                                                                        "INTEGER", 
-                                                                                                        "\u53d6\u6a21\u503c", 
-                                                                                                        "local"
-                                                                                                    ]
+                                                                                                    {
+                                                                                                        "arg_type": 100032, 
+                                                                                                        "args_list": [
+                                                                                                            {
+                                                                                                                "__tuple__": true, 
+                                                                                                                "items": [
+                                                                                                                    "ITEM_NAME", 
+                                                                                                                    "\u771f\u5b9e\u5956\u54c1", 
+                                                                                                                    "local"
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        ], 
+                                                                                                        "sub_type": 2
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100035, 
+                                                                                                        "args_list": [
+                                                                                                            "=="
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100032, 
+                                                                                                        "args_list": [], 
+                                                                                                        "sub_type": "NONE_ITEM_KEY"
+                                                                                                    }
                                                                                                 ], 
-                                                                                                "sub_type": 6
+                                                                                                "condition_type": "ITEM_TYPE_COMPARE", 
+                                                                                                "element_id": 801964247930926, 
+                                                                                                "enable": true
                                                                                             }
-                                                                                        ], 
-                                                                                        "sub_type": "VARIABLE"
-                                                                                    }
-                                                                                ], 
-                                                                                "bp": false, 
-                                                                                "element_id": 801964247000197, 
-                                                                                "enable": true
-                                                                            }, 
-                                                                            {
-                                                                                "action_type": "SET_VARIABLE", 
-                                                                                "args_list": [
-                                                                                    {
-                                                                                        "arg_type": 100030, 
-                                                                                        "args_list": [
-                                                                                            [
-                                                                                                "UI_COMP", 
-                                                                                                "\u4e2d\u5956\u63a7\u4ef6", 
-                                                                                                "local"
-                                                                                            ]
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100070, 
-                                                                                        "args_list": [
-                                                                                            {
-                                                                                                "arg_type": 100025, 
-                                                                                                "args_list": [], 
-                                                                                                "sub_type": "TRIGGER_PLAYER"
-                                                                                            }, 
-                                                                                            {
-                                                                                                "arg_type": 100070, 
-                                                                                                "args_list": [
-                                                                                                    [
-                                                                                                        "UI_COMP", 
-                                                                                                        "\u4e2d\u5956\u63a7\u4ef6", 
-                                                                                                        "local"
-                                                                                                    ]
-                                                                                                ], 
-                                                                                                "sub_type": "VARIABLE"
-                                                                                            }, 
-                                                                                            {
-                                                                                                "arg_type": 100003, 
-                                                                                                "args_list": [
-                                                                                                    "\u56fe\u7247"
-                                                                                                ], 
-                                                                                                "sub_type": 1
-                                                                                            }
-                                                                                        ], 
-                                                                                        "sub_type": "GET_UI_COMP_BY_PATH"
-                                                                                    }
-                                                                                ], 
-                                                                                "bp": false, 
-                                                                                "element_id": 801964247000582, 
-                                                                                "enable": true
-                                                                            }, 
-                                                                            {
-                                                                                "action_type": "SET_VARIABLE", 
-                                                                                "args_list": [
-                                                                                    {
-                                                                                        "arg_type": 100030, 
-                                                                                        "args_list": [
-                                                                                            [
-                                                                                                "UI_COMP", 
-                                                                                                "\u5956\u54c1\u63a7\u4ef6", 
-                                                                                                "local"
-                                                                                            ]
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100070, 
-                                                                                        "args_list": [
-                                                                                            "89ff0062-8a3d-4218-9a59-7ec60373b762"
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }
-                                                                                ], 
-                                                                                "bp": false, 
-                                                                                "element_id": 801964247000540, 
-                                                                                "enable": true
-                                                                            }, 
-                                                                            {
-                                                                                "action_type": "SET_VARIABLE", 
-                                                                                "args_list": [
-                                                                                    {
-                                                                                        "arg_type": 100030, 
-                                                                                        "args_list": [
-                                                                                            [
-                                                                                                "UI_COMP", 
-                                                                                                "tempC", 
-                                                                                                "local"
-                                                                                            ]
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100070, 
-                                                                                        "args_list": [
-                                                                                            "682f7d2c-1246-4d81-b597-f4ed9acecfab"
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }
-                                                                                ], 
-                                                                                "bp": false, 
-                                                                                "element_id": 801964247000524, 
-                                                                                "enable": true
-                                                                            }, 
-                                                                            {
-                                                                                "action_type": "SET_VARIABLE", 
-                                                                                "args_list": [
-                                                                                    {
-                                                                                        "arg_type": 100030, 
-                                                                                        "args_list": [
-                                                                                            [
-                                                                                                "UI_COMP", 
-                                                                                                "tempC2", 
-                                                                                                "local"
-                                                                                            ]
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100070, 
-                                                                                        "args_list": [
-                                                                                            "5822758d-2e11-4383-9033-4f1f52c7c02a"
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }
-                                                                                ], 
-                                                                                "bp": false, 
-                                                                                "element_id": 1194823896921902, 
-                                                                                "enable": true
-                                                                            }, 
-                                                                            {
-                                                                                "action_type": "SET_UI_COMP_TEXT", 
-                                                                                "args_list": [
-                                                                                    {
-                                                                                        "arg_type": 100025, 
-                                                                                        "args_list": [], 
-                                                                                        "sub_type": "TRIGGER_PLAYER"
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100070, 
-                                                                                        "args_list": [
-                                                                                            [
-                                                                                                "UI_COMP", 
-                                                                                                "tempC", 
-                                                                                                "local"
-                                                                                            ]
-                                                                                        ], 
-                                                                                        "sub_type": "VARIABLE"
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100003, 
-                                                                                        "args_list": [
-                                                                                            {
-                                                                                                "arg_type": 100032, 
-                                                                                                "args_list": [
-                                                                                                    [
-                                                                                                        "ITEM_NAME", 
-                                                                                                        "\u771f\u5b9e\u5956\u54c1", 
-                                                                                                        "local"
-                                                                                                    ]
-                                                                                                ], 
-                                                                                                "sub_type": 2
-                                                                                            }
-                                                                                        ], 
-                                                                                        "sub_type": "GET_ITEM_CONF_NAME"
-                                                                                    }
-                                                                                ], 
-                                                                                "bp": false, 
-                                                                                "element_id": 625492163000046, 
-                                                                                "enable": true
-                                                                            }, 
-                                                                            {
-                                                                                "action_type": "SET_UI_COMP_IMAGE_NEW", 
-                                                                                "args_list": [
-                                                                                    {
-                                                                                        "arg_type": 100025, 
-                                                                                        "args_list": [], 
-                                                                                        "sub_type": "TRIGGER_PLAYER"
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100070, 
-                                                                                        "args_list": [
-                                                                                            [
-                                                                                                "UI_COMP", 
-                                                                                                "tempC2", 
-                                                                                                "local"
-                                                                                            ]
-                                                                                        ], 
-                                                                                        "sub_type": "VARIABLE"
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100115, 
-                                                                                        "args_list": [
-                                                                                            {
-                                                                                                "arg_type": 100032, 
-                                                                                                "args_list": [
-                                                                                                    [
-                                                                                                        "ITEM_NAME", 
-                                                                                                        "\u771f\u5b9e\u5956\u54c1", 
-                                                                                                        "local"
-                                                                                                    ]
-                                                                                                ], 
-                                                                                                "sub_type": 2
-                                                                                            }
-                                                                                        ], 
-                                                                                        "sub_type": "GET_ICON_BY_ITEM_TYPE"
-                                                                                    }
-                                                                                ], 
-                                                                                "bp": false, 
-                                                                                "element_id": 625492163000047, 
-                                                                                "enable": true
-                                                                            }, 
-                                                                            {
-                                                                                "action_type": "SET_UI_COMP_VISIBLE", 
-                                                                                "args_list": [
-                                                                                    {
-                                                                                        "arg_type": 100025, 
-                                                                                        "args_list": [], 
-                                                                                        "sub_type": "TRIGGER_PLAYER"
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100001, 
-                                                                                        "args_list": [
-                                                                                            true
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100070, 
-                                                                                        "args_list": [
-                                                                                            [
-                                                                                                "UI_COMP", 
-                                                                                                "\u5956\u54c1\u63a7\u4ef6", 
-                                                                                                "local"
-                                                                                            ]
-                                                                                        ], 
-                                                                                        "sub_type": "VARIABLE"
-                                                                                    }
-                                                                                ], 
-                                                                                "bp": false, 
-                                                                                "element_id": 801964247000577, 
-                                                                                "enable": true
-                                                                            }, 
-                                                                            {
-                                                                                "action_type": "SET_UI_COMP_ANIM_POS", 
-                                                                                "args_list": [
-                                                                                    {
-                                                                                        "arg_type": 100025, 
-                                                                                        "args_list": [], 
-                                                                                        "sub_type": "TRIGGER_PLAYER"
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100070, 
-                                                                                        "args_list": [
-                                                                                            [
-                                                                                                "UI_COMP", 
-                                                                                                "\u5956\u54c1\u63a7\u4ef6", 
-                                                                                                "local"
-                                                                                            ]
-                                                                                        ], 
-                                                                                        "sub_type": "VARIABLE"
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100000, 
-                                                                                        "args_list": [
-                                                                                            {
-                                                                                                "arg_type": 100070, 
-                                                                                                "args_list": [
-                                                                                                    [
-                                                                                                        "UI_COMP", 
-                                                                                                        "\u4e2d\u5956\u63a7\u4ef6", 
-                                                                                                        "local"
-                                                                                                    ]
-                                                                                                ], 
-                                                                                                "sub_type": "VARIABLE"
-                                                                                            }
-                                                                                        ], 
-                                                                                        "sub_type": "GET_UI_COMP_WORLD_POS_X"
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100000, 
-                                                                                        "args_list": [
-                                                                                            {
-                                                                                                "arg_type": 100070, 
-                                                                                                "args_list": [
-                                                                                                    [
-                                                                                                        "UI_COMP", 
-                                                                                                        "\u4e2d\u5956\u63a7\u4ef6", 
-                                                                                                        "local"
-                                                                                                    ]
-                                                                                                ], 
-                                                                                                "sub_type": "VARIABLE"
-                                                                                            }
-                                                                                        ], 
-                                                                                        "sub_type": "GET_UI_COMP_WORLD_POS_Y"
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100000, 
-                                                                                        "args_list": [
-                                                                                            1630.0
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100000, 
-                                                                                        "args_list": [
-                                                                                            1005.0
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100000, 
-                                                                                        "args_list": [
-                                                                                            1.5
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }
-                                                                                ], 
-                                                                                "bp": false, 
-                                                                                "element_id": 801964247000597, 
-                                                                                "enable": true, 
-                                                                                "op_arg": [
-                                                                                    null
-                                                                                ], 
-                                                                                "op_arg_enable": [
-                                                                                    false
-                                                                                ]
-                                                                            }, 
-                                                                            {
-                                                                                "action_type": "SET_UI_COMP_ANIM_SCALE", 
-                                                                                "args_list": [
-                                                                                    {
-                                                                                        "arg_type": 100025, 
-                                                                                        "args_list": [], 
-                                                                                        "sub_type": "TRIGGER_PLAYER"
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100070, 
-                                                                                        "args_list": [
-                                                                                            [
-                                                                                                "UI_COMP", 
-                                                                                                "\u5956\u54c1\u63a7\u4ef6", 
-                                                                                                "local"
-                                                                                            ]
-                                                                                        ], 
-                                                                                        "sub_type": "VARIABLE"
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100000, 
-                                                                                        "args_list": [
-                                                                                            1.0
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100000, 
-                                                                                        "args_list": [
-                                                                                            1.0
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100000, 
-                                                                                        "args_list": [
-                                                                                            0.25
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100000, 
-                                                                                        "args_list": [
-                                                                                            0.25
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100000, 
-                                                                                        "args_list": [
-                                                                                            1.5
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }
-                                                                                ], 
-                                                                                "bp": false, 
-                                                                                "element_id": 801964247000679, 
-                                                                                "enable": true, 
-                                                                                "op_arg": [
-                                                                                    null
-                                                                                ], 
-                                                                                "op_arg_enable": [
-                                                                                    false
-                                                                                ]
-                                                                            }, 
-                                                                            {
-                                                                                "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
-                                                                                "args_list": [
-                                                                                    {
-                                                                                        "arg_type": 100000, 
-                                                                                        "args_list": [
-                                                                                            1.5
                                                                                         ], 
                                                                                         "sub_type": 1
                                                                                     }, 
                                                                                     {
                                                                                         "arg_type": 100022, 
+                                                                                        "args_list": [], 
+                                                                                        "sub_type": 1
+                                                                                    }, 
+                                                                                    {
+                                                                                        "arg_type": 100022, 
                                                                                         "args_list": [
+                                                                                            {
+                                                                                                "action_type": "SET_VARIABLE", 
+                                                                                                "args_list": [
+                                                                                                    {
+                                                                                                        "arg_type": 100030, 
+                                                                                                        "args_list": [
+                                                                                                            [
+                                                                                                                "UI_COMP", 
+                                                                                                                "\u4e2d\u5956\u63a7\u4ef6", 
+                                                                                                                "local"
+                                                                                                            ]
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100070, 
+                                                                                                        "args_list": [
+                                                                                                            [
+                                                                                                                "UI_COMP", 
+                                                                                                                "kjsz", 
+                                                                                                                "local"
+                                                                                                            ], 
+                                                                                                            {
+                                                                                                                "arg_type": 100002, 
+                                                                                                                "args_list": [
+                                                                                                                    [
+                                                                                                                        "INTEGER", 
+                                                                                                                        "\u53d6\u6a21\u503c", 
+                                                                                                                        "local"
+                                                                                                                    ]
+                                                                                                                ], 
+                                                                                                                "sub_type": 6
+                                                                                                            }
+                                                                                                        ], 
+                                                                                                        "sub_type": "VARIABLE"
+                                                                                                    }
+                                                                                                ], 
+                                                                                                "bp": false, 
+                                                                                                "element_id": 801964247000197, 
+                                                                                                "enable": true
+                                                                                            }, 
+                                                                                            {
+                                                                                                "action_type": "SET_VARIABLE", 
+                                                                                                "args_list": [
+                                                                                                    {
+                                                                                                        "arg_type": 100030, 
+                                                                                                        "args_list": [
+                                                                                                            [
+                                                                                                                "UI_COMP", 
+                                                                                                                "\u4e2d\u5956\u63a7\u4ef6", 
+                                                                                                                "local"
+                                                                                                            ]
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100070, 
+                                                                                                        "args_list": [
+                                                                                                            {
+                                                                                                                "arg_type": 100025, 
+                                                                                                                "args_list": [], 
+                                                                                                                "sub_type": "TRIGGER_PLAYER"
+                                                                                                            }, 
+                                                                                                            {
+                                                                                                                "arg_type": 100070, 
+                                                                                                                "args_list": [
+                                                                                                                    [
+                                                                                                                        "UI_COMP", 
+                                                                                                                        "\u4e2d\u5956\u63a7\u4ef6", 
+                                                                                                                        "local"
+                                                                                                                    ]
+                                                                                                                ], 
+                                                                                                                "sub_type": "VARIABLE"
+                                                                                                            }, 
+                                                                                                            {
+                                                                                                                "arg_type": 100003, 
+                                                                                                                "args_list": [
+                                                                                                                    "\u56fe\u7247"
+                                                                                                                ], 
+                                                                                                                "sub_type": 1
+                                                                                                            }
+                                                                                                        ], 
+                                                                                                        "sub_type": "GET_UI_COMP_BY_PATH"
+                                                                                                    }
+                                                                                                ], 
+                                                                                                "bp": false, 
+                                                                                                "element_id": 801964247000582, 
+                                                                                                "enable": true
+                                                                                            }, 
+                                                                                            {
+                                                                                                "action_type": "SET_VARIABLE", 
+                                                                                                "args_list": [
+                                                                                                    {
+                                                                                                        "arg_type": 100030, 
+                                                                                                        "args_list": [
+                                                                                                            [
+                                                                                                                "UI_COMP", 
+                                                                                                                "\u5956\u54c1\u63a7\u4ef6", 
+                                                                                                                "local"
+                                                                                                            ]
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100070, 
+                                                                                                        "args_list": [
+                                                                                                            "89ff0062-8a3d-4218-9a59-7ec60373b762"
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }
+                                                                                                ], 
+                                                                                                "bp": false, 
+                                                                                                "element_id": 801964247000540, 
+                                                                                                "enable": true
+                                                                                            }, 
+                                                                                            {
+                                                                                                "action_type": "SET_VARIABLE", 
+                                                                                                "args_list": [
+                                                                                                    {
+                                                                                                        "arg_type": 100030, 
+                                                                                                        "args_list": [
+                                                                                                            [
+                                                                                                                "UI_COMP", 
+                                                                                                                "tempC", 
+                                                                                                                "local"
+                                                                                                            ]
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100070, 
+                                                                                                        "args_list": [
+                                                                                                            "682f7d2c-1246-4d81-b597-f4ed9acecfab"
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }
+                                                                                                ], 
+                                                                                                "bp": false, 
+                                                                                                "element_id": 801964247000524, 
+                                                                                                "enable": true
+                                                                                            }, 
+                                                                                            {
+                                                                                                "action_type": "SET_VARIABLE", 
+                                                                                                "args_list": [
+                                                                                                    {
+                                                                                                        "arg_type": 100030, 
+                                                                                                        "args_list": [
+                                                                                                            [
+                                                                                                                "UI_COMP", 
+                                                                                                                "tempC2", 
+                                                                                                                "local"
+                                                                                                            ]
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100070, 
+                                                                                                        "args_list": [
+                                                                                                            "5822758d-2e11-4383-9033-4f1f52c7c02a"
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }
+                                                                                                ], 
+                                                                                                "bp": false, 
+                                                                                                "element_id": 1194823896921902, 
+                                                                                                "enable": true
+                                                                                            }, 
+                                                                                            {
+                                                                                                "action_type": "SET_UI_COMP_TEXT", 
+                                                                                                "args_list": [
+                                                                                                    {
+                                                                                                        "arg_type": 100025, 
+                                                                                                        "args_list": [], 
+                                                                                                        "sub_type": "TRIGGER_PLAYER"
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100070, 
+                                                                                                        "args_list": [
+                                                                                                            [
+                                                                                                                "UI_COMP", 
+                                                                                                                "tempC", 
+                                                                                                                "local"
+                                                                                                            ]
+                                                                                                        ], 
+                                                                                                        "sub_type": "VARIABLE"
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100003, 
+                                                                                                        "args_list": [
+                                                                                                            {
+                                                                                                                "arg_type": 100032, 
+                                                                                                                "args_list": [
+                                                                                                                    [
+                                                                                                                        "ITEM_NAME", 
+                                                                                                                        "\u771f\u5b9e\u5956\u54c1", 
+                                                                                                                        "local"
+                                                                                                                    ]
+                                                                                                                ], 
+                                                                                                                "sub_type": 2
+                                                                                                            }
+                                                                                                        ], 
+                                                                                                        "sub_type": "GET_ITEM_CONF_NAME"
+                                                                                                    }
+                                                                                                ], 
+                                                                                                "bp": false, 
+                                                                                                "element_id": 625492163000046, 
+                                                                                                "enable": true
+                                                                                            }, 
+                                                                                            {
+                                                                                                "action_type": "SET_UI_COMP_IMAGE_NEW", 
+                                                                                                "args_list": [
+                                                                                                    {
+                                                                                                        "arg_type": 100025, 
+                                                                                                        "args_list": [], 
+                                                                                                        "sub_type": "TRIGGER_PLAYER"
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100070, 
+                                                                                                        "args_list": [
+                                                                                                            [
+                                                                                                                "UI_COMP", 
+                                                                                                                "tempC2", 
+                                                                                                                "local"
+                                                                                                            ]
+                                                                                                        ], 
+                                                                                                        "sub_type": "VARIABLE"
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100115, 
+                                                                                                        "args_list": [
+                                                                                                            {
+                                                                                                                "arg_type": 100032, 
+                                                                                                                "args_list": [
+                                                                                                                    [
+                                                                                                                        "ITEM_NAME", 
+                                                                                                                        "\u771f\u5b9e\u5956\u54c1", 
+                                                                                                                        "local"
+                                                                                                                    ]
+                                                                                                                ], 
+                                                                                                                "sub_type": 2
+                                                                                                            }
+                                                                                                        ], 
+                                                                                                        "sub_type": "GET_ICON_BY_ITEM_TYPE"
+                                                                                                    }
+                                                                                                ], 
+                                                                                                "bp": false, 
+                                                                                                "element_id": 625492163000047, 
+                                                                                                "enable": true
+                                                                                            }, 
                                                                                             {
                                                                                                 "action_type": "SET_UI_COMP_VISIBLE", 
                                                                                                 "args_list": [
@@ -24609,7 +24462,7 @@
                                                                                                     {
                                                                                                         "arg_type": 100001, 
                                                                                                         "args_list": [
-                                                                                                            false
+                                                                                                            true
                                                                                                         ], 
                                                                                                         "sub_type": 1
                                                                                                     }, 
@@ -24626,23 +24479,228 @@
                                                                                                     }
                                                                                                 ], 
                                                                                                 "bp": false, 
-                                                                                                "element_id": 801964247000605, 
+                                                                                                "element_id": 801964247000577, 
                                                                                                 "enable": true
+                                                                                            }, 
+                                                                                            {
+                                                                                                "action_type": "SET_UI_COMP_ANIM_POS", 
+                                                                                                "args_list": [
+                                                                                                    {
+                                                                                                        "arg_type": 100025, 
+                                                                                                        "args_list": [], 
+                                                                                                        "sub_type": "TRIGGER_PLAYER"
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100070, 
+                                                                                                        "args_list": [
+                                                                                                            [
+                                                                                                                "UI_COMP", 
+                                                                                                                "\u5956\u54c1\u63a7\u4ef6", 
+                                                                                                                "local"
+                                                                                                            ]
+                                                                                                        ], 
+                                                                                                        "sub_type": "VARIABLE"
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100000, 
+                                                                                                        "args_list": [
+                                                                                                            {
+                                                                                                                "arg_type": 100070, 
+                                                                                                                "args_list": [
+                                                                                                                    [
+                                                                                                                        "UI_COMP", 
+                                                                                                                        "\u4e2d\u5956\u63a7\u4ef6", 
+                                                                                                                        "local"
+                                                                                                                    ]
+                                                                                                                ], 
+                                                                                                                "sub_type": "VARIABLE"
+                                                                                                            }
+                                                                                                        ], 
+                                                                                                        "sub_type": "GET_UI_COMP_WORLD_POS_X"
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100000, 
+                                                                                                        "args_list": [
+                                                                                                            {
+                                                                                                                "arg_type": 100070, 
+                                                                                                                "args_list": [
+                                                                                                                    [
+                                                                                                                        "UI_COMP", 
+                                                                                                                        "\u4e2d\u5956\u63a7\u4ef6", 
+                                                                                                                        "local"
+                                                                                                                    ]
+                                                                                                                ], 
+                                                                                                                "sub_type": "VARIABLE"
+                                                                                                            }
+                                                                                                        ], 
+                                                                                                        "sub_type": "GET_UI_COMP_WORLD_POS_Y"
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100000, 
+                                                                                                        "args_list": [
+                                                                                                            1630.0
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100000, 
+                                                                                                        "args_list": [
+                                                                                                            1005.0
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100000, 
+                                                                                                        "args_list": [
+                                                                                                            1.5
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }
+                                                                                                ], 
+                                                                                                "bp": false, 
+                                                                                                "element_id": 801964247000597, 
+                                                                                                "enable": true, 
+                                                                                                "op_arg": [
+                                                                                                    null
+                                                                                                ], 
+                                                                                                "op_arg_enable": [
+                                                                                                    false
+                                                                                                ]
+                                                                                            }, 
+                                                                                            {
+                                                                                                "action_type": "SET_UI_COMP_ANIM_SCALE", 
+                                                                                                "args_list": [
+                                                                                                    {
+                                                                                                        "arg_type": 100025, 
+                                                                                                        "args_list": [], 
+                                                                                                        "sub_type": "TRIGGER_PLAYER"
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100070, 
+                                                                                                        "args_list": [
+                                                                                                            [
+                                                                                                                "UI_COMP", 
+                                                                                                                "\u5956\u54c1\u63a7\u4ef6", 
+                                                                                                                "local"
+                                                                                                            ]
+                                                                                                        ], 
+                                                                                                        "sub_type": "VARIABLE"
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100000, 
+                                                                                                        "args_list": [
+                                                                                                            1.0
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100000, 
+                                                                                                        "args_list": [
+                                                                                                            1.0
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100000, 
+                                                                                                        "args_list": [
+                                                                                                            0.25
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100000, 
+                                                                                                        "args_list": [
+                                                                                                            0.25
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100000, 
+                                                                                                        "args_list": [
+                                                                                                            1.5
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }
+                                                                                                ], 
+                                                                                                "bp": false, 
+                                                                                                "element_id": 801964247000679, 
+                                                                                                "enable": true, 
+                                                                                                "op_arg": [
+                                                                                                    null
+                                                                                                ], 
+                                                                                                "op_arg_enable": [
+                                                                                                    false
+                                                                                                ]
+                                                                                            }, 
+                                                                                            {
+                                                                                                "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
+                                                                                                "args_list": [
+                                                                                                    {
+                                                                                                        "arg_type": 100000, 
+                                                                                                        "args_list": [
+                                                                                                            1.5
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }, 
+                                                                                                    {
+                                                                                                        "arg_type": 100022, 
+                                                                                                        "args_list": [
+                                                                                                            {
+                                                                                                                "action_type": "SET_UI_COMP_VISIBLE", 
+                                                                                                                "args_list": [
+                                                                                                                    {
+                                                                                                                        "arg_type": 100025, 
+                                                                                                                        "args_list": [], 
+                                                                                                                        "sub_type": "TRIGGER_PLAYER"
+                                                                                                                    }, 
+                                                                                                                    {
+                                                                                                                        "arg_type": 100001, 
+                                                                                                                        "args_list": [
+                                                                                                                            false
+                                                                                                                        ], 
+                                                                                                                        "sub_type": 1
+                                                                                                                    }, 
+                                                                                                                    {
+                                                                                                                        "arg_type": 100070, 
+                                                                                                                        "args_list": [
+                                                                                                                            [
+                                                                                                                                "UI_COMP", 
+                                                                                                                                "\u5956\u54c1\u63a7\u4ef6", 
+                                                                                                                                "local"
+                                                                                                                            ]
+                                                                                                                        ], 
+                                                                                                                        "sub_type": "VARIABLE"
+                                                                                                                    }
+                                                                                                                ], 
+                                                                                                                "bp": false, 
+                                                                                                                "element_id": 801964247000605, 
+                                                                                                                "enable": true
+                                                                                                            }
+                                                                                                        ], 
+                                                                                                        "sub_type": 1
+                                                                                                    }
+                                                                                                ], 
+                                                                                                "bp": false, 
+                                                                                                "element_id": 801964247000600, 
+                                                                                                "enable": true, 
+                                                                                                "local_var": {
+                                                                                                    "__tuple__": true, 
+                                                                                                    "items": [
+                                                                                                        {}, 
+                                                                                                        {}
+                                                                                                    ]
+                                                                                                }
                                                                                             }
                                                                                         ], 
                                                                                         "sub_type": 1
                                                                                     }
                                                                                 ], 
                                                                                 "bp": false, 
-                                                                                "element_id": 801964247000600, 
+                                                                                "element_id": 801964247930916, 
                                                                                 "enable": true, 
-                                                                                "local_var": {
-                                                                                    "__tuple__": true, 
-                                                                                    "items": [
-                                                                                        {}, 
-                                                                                        {}
-                                                                                    ]
-                                                                                }
+                                                                                "fake_op": [
+                                                                                    2
+                                                                                ]
                                                                             }
                                                                         ], 
                                                                         "sub_type": 1
