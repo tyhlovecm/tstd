@@ -10144,7 +10144,89 @@
                                                         }, 
                                                         {
                                                             "arg_type": 100022, 
-                                                            "args_list": [], 
+                                                            "args_list": [
+                                                                {
+                                                                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100175, 
+                                                                            "args_list": [
+                                                                                3
+                                                                            ], 
+                                                                            "sub_type": 1
+                                                                        }, 
+                                                                        {
+                                                                            "arg_type": 100003, 
+                                                                            "args_list": [
+                                                                                {
+                                                                                    "arg_type": 100003, 
+                                                                                    "args_list": [
+                                                                                        "\u5175\u79cd\u5c5e\u6027\u589e\u52a0:"
+                                                                                    ], 
+                                                                                    "sub_type": 1
+                                                                                }, 
+                                                                                {
+                                                                                    "arg_type": 100003, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100042, 
+                                                                                            "args_list": [
+                                                                                                [
+                                                                                                    "UNIT_WRITE_ATTRIBUTE", 
+                                                                                                    "\u53d8\u5316\u5c5e\u6027", 
+                                                                                                    "local"
+                                                                                                ]
+                                                                                            ], 
+                                                                                            "sub_type": 2
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                                                }
+                                                                            ], 
+                                                                            "op_arg": [
+                                                                                {
+                                                                                    "arg_type": 100003, 
+                                                                                    "args_list": [
+                                                                                        {
+                                                                                            "arg_type": 100000, 
+                                                                                            "args_list": [
+                                                                                                [
+                                                                                                    "FLOAT", 
+                                                                                                    "\u53d8\u5316\u503c", 
+                                                                                                    "local"
+                                                                                                ]
+                                                                                            ], 
+                                                                                            "sub_type": 2
+                                                                                        }
+                                                                                    ], 
+                                                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                                                }, 
+                                                                                null, 
+                                                                                null, 
+                                                                                null, 
+                                                                                null, 
+                                                                                null, 
+                                                                                null, 
+                                                                                null
+                                                                            ], 
+                                                                            "op_arg_enable": [
+                                                                                true, 
+                                                                                false, 
+                                                                                false, 
+                                                                                false, 
+                                                                                false, 
+                                                                                false, 
+                                                                                false, 
+                                                                                false
+                                                                            ], 
+                                                                            "sub_type": "STR_JOIN"
+                                                                        }
+                                                                    ], 
+                                                                    "bp": false, 
+                                                                    "element_id": 739234072001516, 
+                                                                    "enable": true
+                                                                }
+                                                            ], 
                                                             "sub_type": 1
                                                         }
                                                     ], 
@@ -10207,93 +10289,6 @@
                                                     ], 
                                                     "bp": false, 
                                                     "element_id": 739234072000624, 
-                                                    "enable": true
-                                                }, 
-                                                {
-                                                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100175, 
-                                                            "args_list": [
-                                                                3
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100003, 
-                                                            "args_list": [
-                                                                {
-                                                                    "arg_type": 100003, 
-                                                                    "args_list": [
-                                                                        "\u5175\u79cd\u5c5e\u6027\u589e\u52a0:"
-                                                                    ], 
-                                                                    "sub_type": 1
-                                                                }, 
-                                                                {
-                                                                    "arg_type": 100003, 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "arg_type": 100042, 
-                                                                            "args_list": [
-                                                                                {
-                                                                                    "__tuple__": true, 
-                                                                                    "items": [
-                                                                                        "UNIT_WRITE_ATTRIBUTE", 
-                                                                                        "\u53d8\u5316\u5c5e\u6027", 
-                                                                                        "local"
-                                                                                    ]
-                                                                                }
-                                                                            ], 
-                                                                            "sub_type": 2
-                                                                        }
-                                                                    ], 
-                                                                    "sub_type": "ANY_VAR_TO_STR"
-                                                                }
-                                                            ], 
-                                                            "op_arg": [
-                                                                {
-                                                                    "arg_type": 100003, 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "arg_type": 100000, 
-                                                                            "args_list": [
-                                                                                {
-                                                                                    "__tuple__": true, 
-                                                                                    "items": [
-                                                                                        "FLOAT", 
-                                                                                        "\u53d8\u5316\u503c", 
-                                                                                        "local"
-                                                                                    ]
-                                                                                }
-                                                                            ], 
-                                                                            "sub_type": 2
-                                                                        }
-                                                                    ], 
-                                                                    "sub_type": "ANY_VAR_TO_STR"
-                                                                }, 
-                                                                null, 
-                                                                null, 
-                                                                null, 
-                                                                null, 
-                                                                null, 
-                                                                null, 
-                                                                null
-                                                            ], 
-                                                            "op_arg_enable": [
-                                                                true, 
-                                                                false, 
-                                                                false, 
-                                                                false, 
-                                                                false, 
-                                                                false, 
-                                                                false, 
-                                                                false
-                                                            ], 
-                                                            "sub_type": "STR_JOIN"
-                                                        }
-                                                    ], 
-                                                    "bp": false, 
-                                                    "element_id": 739234072001516, 
                                                     "enable": true
                                                 }
                                             ], 
