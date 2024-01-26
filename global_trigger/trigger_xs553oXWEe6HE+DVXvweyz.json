@@ -895,73 +895,6 @@
                     "enable": true
                 }, 
                 {
-                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
-                    "args_list": [
-                        {
-                            "arg_type": 100175, 
-                            "args_list": [
-                                3
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        "\u5728\u7ebf\u73a9\u5bb6\u6570\u91cf\u4e3a\uff1a"
-                                    ], 
-                                    "sub_type": 1
-                                }, 
-                                {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100002, 
-                                            "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "INTEGER", 
-                                                        "\u73a9\u5bb6\u6570"
-                                                    ]
-                                                }
-                                            ], 
-                                            "sub_type": 6
-                                        }
-                                    ], 
-                                    "sub_type": "ANY_VAR_TO_STR"
-                                }
-                            ], 
-                            "op_arg": [
-                                null, 
-                                null, 
-                                null, 
-                                null, 
-                                null, 
-                                null, 
-                                null, 
-                                null
-                            ], 
-                            "op_arg_enable": [
-                                false, 
-                                false, 
-                                false, 
-                                false, 
-                                false, 
-                                false, 
-                                false, 
-                                false
-                            ], 
-                            "sub_type": "STR_JOIN"
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 9355431406409, 
-                    "enable": false
-                }, 
-                {
                     "action_type": "IF_THEN_ELSE", 
                     "args_list": [
                         {
@@ -12890,6 +12823,47 @@
                                     ], 
                                     "bp": false, 
                                     "element_id": 1281610002973958, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "ROLE_SET_RES", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100027, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "PLAYER_GROUP", 
+                                                        "Force1"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 14
+                                        }, 
+                                        {
+                                            "arg_type": 100037, 
+                                            "args_list": [
+                                                "custom_res_4"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "INTEGER", 
+                                                        "\u53ef\u7528\u4eba\u53e3\u521d\u59cb\u503c"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1281610002973969, 
                                     "enable": true
                                 }
                             ], 
