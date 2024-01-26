@@ -93,7 +93,7 @@
                     ]
                 }, 
                 "camp": {
-                    "role_id": 1
+                    "role_id": 32
                 }, 
                 "display": {
                     "real_scale": [
@@ -139,8 +139,8 @@
                     "yaw": {
                         "__tuple__": true, 
                         "items": [
-                            6, 
-                            1216271784
+                            0, 
+                            0
                         ]
                     }
                 }
@@ -160,7 +160,7 @@
                     ]
                 }, 
                 "camp": {
-                    "role_id": 1
+                    "role_id": 32
                 }, 
                 "display": {
                     "real_scale": [
@@ -206,8 +206,8 @@
                     "yaw": {
                         "__tuple__": true, 
                         "items": [
-                            0, 
-                            0
+                            6, 
+                            1216271784
                         ]
                     }
                 }
@@ -227,7 +227,7 @@
                     ]
                 }, 
                 "camp": {
-                    "role_id": 1
+                    "role_id": 32
                 }, 
                 "display": {
                     "real_scale": [
@@ -273,8 +273,8 @@
                     "yaw": {
                         "__tuple__": true, 
                         "items": [
-                            6, 
-                            1216271784
+                            0, 
+                            0
                         ]
                     }
                 }
