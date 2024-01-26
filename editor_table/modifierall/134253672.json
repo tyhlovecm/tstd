@@ -10,7 +10,7 @@
     "disappear_when_dead": true, 
     "get_effect_list": [
         [
-            100000, 
+            104070, 
             {
                 "__tuple__": true, 
                 "items": [
