@@ -10693,6 +10693,12 @@
         }, 
         "899227829": {
             "action": [
+                [
+                    1655572794, 
+                    "#######", 
+                    899227829, 
+                    "action_type"
+                ], 
                 {
                     "action_type": "SET_UI_COMP_VISIBLE", 
                     "args_list": [

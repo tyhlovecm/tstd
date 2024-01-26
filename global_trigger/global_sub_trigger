@@ -35226,26 +35226,54 @@
                 "enable": true
             }, 
             {
-                "action_type": "CALL_TRIGGER_FUNC", 
+                "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
                 "args_list": [
                     {
-                        "arg_type": 100177, 
+                        "arg_type": 100002, 
+                        "args_list": [
+                            3
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
                         "args_list": [
                             {
-                                "arg_type": 100025, 
-                                "args_list": [], 
-                                "sub_type": "TRIGGER_PLAYER"
+                                "action_type": "CALL_TRIGGER_FUNC", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100177, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100025, 
+                                                "args_list": [], 
+                                                "sub_type": "TRIGGER_PLAYER"
+                                            }
+                                        ], 
+                                        "op_arg": [], 
+                                        "op_arg_enable": [], 
+                                        "sub_type": "aaca4cf0b35911ee9f6dc87f54ac1032"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "call_rt_arg_idxes": [], 
+                                "element_id": 1586762012000014, 
+                                "enable": true
                             }
                         ], 
-                        "op_arg": [], 
-                        "op_arg_enable": [], 
-                        "sub_type": "aaca4cf0b35911ee9f6dc87f54ac1032"
+                        "sub_type": 1
                     }
                 ], 
                 "bp": false, 
-                "call_rt_arg_idxes": [], 
-                "element_id": 1586762012000014, 
-                "enable": true
+                "element_id": 1200886033334377, 
+                "enable": true, 
+                "local_var": {
+                    "__tuple__": true, 
+                    "items": [
+                        {}, 
+                        {}
+                    ]
+                }
             }
         ], 
         "call_enabled": true, 
@@ -53166,28 +53194,6 @@
                         ], 
                         "op_arg": [], 
                         "op_arg_enable": [], 
-                        "sub_type": "0f2b8a0fba6c11eeac3fc87f54ac1032"
-                    }
-                ], 
-                "bp": false, 
-                "call_rt_arg_idxes": [], 
-                "element_id": 1200886033000004, 
-                "enable": true
-            }, 
-            {
-                "action_type": "CALL_TRIGGER_FUNC", 
-                "args_list": [
-                    {
-                        "arg_type": 100177, 
-                        "args_list": [
-                            {
-                                "arg_type": 100025, 
-                                "args_list": [], 
-                                "sub_type": "TRIGGER_PLAYER"
-                            }
-                        ], 
-                        "op_arg": [], 
-                        "op_arg_enable": [], 
                         "sub_type": "aaca4cf0b35911ee9f6dc87f54ac1032"
                     }
                 ], 
@@ -53195,6 +53201,56 @@
                 "call_rt_arg_idxes": [], 
                 "element_id": 1586762012000014, 
                 "enable": true
+            }, 
+            {
+                "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
+                "args_list": [
+                    {
+                        "arg_type": 100002, 
+                        "args_list": [
+                            3
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [
+                            {
+                                "action_type": "CALL_TRIGGER_FUNC", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100177, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100025, 
+                                                "args_list": [], 
+                                                "sub_type": "TRIGGER_PLAYER"
+                                            }
+                                        ], 
+                                        "op_arg": [], 
+                                        "op_arg_enable": [], 
+                                        "sub_type": "0f2b8a0fba6c11eeac3fc87f54ac1032"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "call_rt_arg_idxes": [], 
+                                "element_id": 1200886033000004, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1200886033334377, 
+                "enable": true, 
+                "local_var": {
+                    "__tuple__": true, 
+                    "items": [
+                        {}, 
+                        {}
+                    ]
+                }
             }
         ], 
         "call_enabled": true, 

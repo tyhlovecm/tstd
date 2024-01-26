@@ -1,5 +1,18 @@
 {
-    "b": [], 
+    "b": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "attack_interval", 
+                {
+                    "default": 0.0, 
+                    "desc": "\u653b\u51fb\u95f4\u9694", 
+                    "maximun": 100.0, 
+                    "minimun": 0.0
+                }
+            ]
+        }
+    ], 
     "c": [
         {
             "__tuple__": true, 
