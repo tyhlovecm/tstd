@@ -23705,6 +23705,30 @@
                                                             "args_list": [
                                                                 [
                                                                     "INTEGER", 
+                                                                    "key", 
+                                                                    "local"
+                                                                ]
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100002, 
+                                                            "args_list": [], 
+                                                            "sub_type": "ITER_TABLE_KEY_INT"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1272246561669625, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "SET_VARIABLE", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100030, 
+                                                            "args_list": [
+                                                                [
+                                                                    "INTEGER", 
                                                                     "\u5b8c\u6210\u65e5\u671f", 
                                                                     "local"
                                                                 ]
@@ -23752,30 +23776,6 @@
                                                     ], 
                                                     "bp": false, 
                                                     "element_id": 1217663226000014, 
-                                                    "enable": true
-                                                }, 
-                                                {
-                                                    "action_type": "SET_VARIABLE", 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100030, 
-                                                            "args_list": [
-                                                                [
-                                                                    "INTEGER", 
-                                                                    "key", 
-                                                                    "local"
-                                                                ]
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100002, 
-                                                            "args_list": [], 
-                                                            "sub_type": "ITER_TABLE_KEY_INT"
-                                                        }
-                                                    ], 
-                                                    "bp": false, 
-                                                    "element_id": 1272246561669625, 
                                                     "enable": true
                                                 }, 
                                                 {
@@ -23859,16 +23859,9 @@
                                                                                 {
                                                                                     "arg_type": 100011, 
                                                                                     "args_list": [
-                                                                                        {
-                                                                                            "__tuple__": true, 
-                                                                                            "items": [
-                                                                                                "TABLE", 
-                                                                                                "\u65e5\u5e38\u4efb\u52a1\u5b8c\u6210\u5b58\u6863\u8868", 
-                                                                                                "local"
-                                                                                            ]
-                                                                                        }
+                                                                                        "8455bb7c-985b-4e58-8521-b94c74234275"
                                                                                     ], 
-                                                                                    "sub_type": "VARIABLE"
+                                                                                    "sub_type": 1
                                                                                 }, 
                                                                                 {
                                                                                     "arg_type": 100002, 
@@ -23980,6 +23973,87 @@
                                                     "bp": false, 
                                                     "element_id": 1272246561669631, 
                                                     "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100175, 
+                                                            "args_list": [
+                                                                3
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        "\u6d4b\u8bd51\uff1a"
+                                                                    ], 
+                                                                    "sub_type": 1
+                                                                }, 
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                [
+                                                                                    "INTEGER", 
+                                                                                    "\u5217\u5b57\u6bb5", 
+                                                                                    "local"
+                                                                                ]
+                                                                            ], 
+                                                                            "sub_type": 6
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                                }
+                                                            ], 
+                                                            "op_arg": [
+                                                                {
+                                                                    "arg_type": 100003, 
+                                                                    "args_list": [
+                                                                        {
+                                                                            "arg_type": 100002, 
+                                                                            "args_list": [
+                                                                                [
+                                                                                    "INTEGER", 
+                                                                                    "\u5217\u503c", 
+                                                                                    "local"
+                                                                                ]
+                                                                            ], 
+                                                                            "sub_type": 6
+                                                                        }
+                                                                    ], 
+                                                                    "sub_type": "ANY_VAR_TO_STR"
+                                                                }, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null, 
+                                                                null
+                                                            ], 
+                                                            "op_arg_enable": [
+                                                                true, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false, 
+                                                                false
+                                                            ], 
+                                                            "sub_type": "STR_JOIN"
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 1272246561670021, 
+                                                    "enable": false
                                                 }, 
                                                 [
                                                     1664337438, 
