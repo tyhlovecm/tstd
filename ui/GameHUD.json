@@ -4015,133 +4015,6 @@
                                 false, 
                                 true, 
                                 true, 
-                                44.54613494873047, 
-                                84.14612579345703, 
-                                -0.8212356567382812, 
-                                0.3987884521484375
-                            ], 
-                            "children": [
-                                {
-                                    "adapter_option": [
-                                        true, 
-                                        false, 
-                                        true, 
-                                        false, 
-                                        2.7077484130859375, 
-                                        3.0, 
-                                        4.0, 
-                                        82.82247161865234
-                                    ], 
-                                    "children": [], 
-                                    "event_list": [], 
-                                    "image": 133793, 
-                                    "name": "attr_icon", 
-                                    "open_adapter": true, 
-                                    "pos": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            12.0, 
-                                            11.0
-                                        ]
-                                    }, 
-                                    "pos_percent": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            11.670600610054931, 
-                                            50.673150391631324
-                                        ]
-                                    }, 
-                                    "size": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            16.0, 
-                                            16.0
-                                        ]
-                                    }, 
-                                    "type": 4, 
-                                    "uid": "f9e0dbf1-f86a-4cd4-83ff-81bdbf6627fc"
-                                }, 
-                                {
-                                    "adapter_option": [
-                                        true, 
-                                        true, 
-                                        true, 
-                                        true, 
-                                        3.187206268310547, 
-                                        3.4794578552246094, 
-                                        26.297100067138672, 
-                                        9.119571685791016
-                                    ], 
-                                    "children": [], 
-                                    "event_list": [], 
-                                    "font": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            "MSYH", 
-                                            12
-                                        ]
-                                    }, 
-                                    "name": "attr_value", 
-                                    "open_adapter": true, 
-                                    "pos": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            60.0, 
-                                            11.0
-                                        ]
-                                    }, 
-                                    "pos_percent": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            58.353003050274665, 
-                                            50.673150391631324
-                                        ]
-                                    }, 
-                                    "size": {
-                                        "__tuple__": true, 
-                                        "items": [
-                                            67.40579986572266, 
-                                            15.041084289550781
-                                        ]
-                                    }, 
-                                    "type": 3, 
-                                    "uid": "0f3617d7-5d77-4112-a7ef-d233c831621d"
-                                }
-                            ], 
-                            "event_list": [], 
-                            "image": 107333, 
-                            "name": "attack_speed", 
-                            "open_adapter": true, 
-                            "pos": {
-                                "__tuple__": true, 
-                                "items": [
-                                    50.59000015258789, 
-                                    95.0
-                                ]
-                            }, 
-                            "pos_percent": {
-                                "__tuple__": true, 
-                                "items": [
-                                    49.40428524511212, 
-                                    63.16488977199576
-                                ]
-                            }, 
-                            "size": {
-                                "__tuple__": true, 
-                                "items": [
-                                    102.82247161865234, 
-                                    21.707748413085938
-                                ]
-                            }, 
-                            "type": 4, 
-                            "uid": "78468b79-a600-4bec-931d-5243d442256c"
-                        }, 
-                        {
-                            "adapter_option": [
-                                false, 
-                                false, 
-                                true, 
-                                true, 
                                 66.54613494873047, 
                                 62.14612579345703, 
                                 -0.4112358093261719, 
@@ -4516,6 +4389,133 @@
                             }, 
                             "type": 4, 
                             "uid": "70b07102-0eec-4e8c-b5f6-cf3e54fe6c96"
+                        }, 
+                        {
+                            "adapter_option": [
+                                false, 
+                                false, 
+                                true, 
+                                true, 
+                                45.39995574951172, 
+                                83.29230499267578, 
+                                -1.2325248718261719, 
+                                0.8100776672363281
+                            ], 
+                            "children": [
+                                {
+                                    "adapter_option": [
+                                        true, 
+                                        false, 
+                                        true, 
+                                        false, 
+                                        2.7077484130859375, 
+                                        3.0, 
+                                        4.0, 
+                                        82.82247161865234
+                                    ], 
+                                    "children": [], 
+                                    "event_list": [], 
+                                    "image": 133793, 
+                                    "name": "attr_icon", 
+                                    "open_adapter": true, 
+                                    "pos": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            12.0, 
+                                            11.0
+                                        ]
+                                    }, 
+                                    "pos_percent": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            11.670600610054931, 
+                                            50.673150391631324
+                                        ]
+                                    }, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            16.0, 
+                                            16.0
+                                        ]
+                                    }, 
+                                    "type": 4, 
+                                    "uid": "f9acb6c8-6941-4844-9a91-e3b0192cce8f"
+                                }, 
+                                {
+                                    "adapter_option": [
+                                        true, 
+                                        true, 
+                                        true, 
+                                        true, 
+                                        3.187206268310547, 
+                                        3.4794578552246094, 
+                                        26.297100067138672, 
+                                        9.119571685791016
+                                    ], 
+                                    "children": [], 
+                                    "event_list": [], 
+                                    "font": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "MSYH", 
+                                            12
+                                        ]
+                                    }, 
+                                    "name": "attr_value", 
+                                    "open_adapter": true, 
+                                    "pos": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            60.0, 
+                                            11.0
+                                        ]
+                                    }, 
+                                    "pos_percent": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            58.353003050274665, 
+                                            50.673150391631324
+                                        ]
+                                    }, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            67.40579986572266, 
+                                            15.041084289550781
+                                        ]
+                                    }, 
+                                    "type": 3, 
+                                    "uid": "41a8a3b7-5ff6-42b5-aacd-5c1daa439e7b"
+                                }
+                            ], 
+                            "event_list": [], 
+                            "image": 107333, 
+                            "name": "attack_speed", 
+                            "open_adapter": true, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    50.1787109375, 
+                                    94.14617919921875
+                                ]
+                            }, 
+                            "pos_percent": {
+                                "__tuple__": true, 
+                                "items": [
+                                    49.002635716763564, 
+                                    62.59718980603382
+                                ]
+                            }, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    102.82247161865234, 
+                                    21.707748413085938
+                                ]
+                            }, 
+                            "type": 4, 
+                            "uid": "db59b6c1-8c40-430a-9a9c-47c1ed8a54e9"
                         }
                     ], 
                     "event_list": [], 
