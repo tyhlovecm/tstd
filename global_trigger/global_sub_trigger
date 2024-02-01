@@ -23304,7 +23304,7 @@
                                                     {
                                                         "arg_type": 100000, 
                                                         "args_list": [
-                                                            0.1
+                                                            0.05
                                                         ], 
                                                         "sub_type": 1
                                                     }, 
@@ -23763,6 +23763,143 @@
                                                                                 "enable": true
                                                                             }, 
                                                                             [
+                                                                                1600984877, 
+                                                                                "####\u6d88\u8017\u94dc\u94b1###", 
+                                                                                801964247, 
+                                                                                "action_type"
+                                                                            ], 
+                                                                            {
+                                                                                "action_type": "SET_VARIABLE", 
+                                                                                "args_list": [
+                                                                                    {
+                                                                                        "arg_type": 100030, 
+                                                                                        "args_list": [
+                                                                                            [
+                                                                                                "FLOAT", 
+                                                                                                "\u5b58\u6863\u7684\u94dc\u94b1", 
+                                                                                                "local"
+                                                                                            ]
+                                                                                        ], 
+                                                                                        "sub_type": 1
+                                                                                    }, 
+                                                                                    {
+                                                                                        "arg_type": 100000, 
+                                                                                        "args_list": [
+                                                                                            {
+                                                                                                "arg_type": 100025, 
+                                                                                                "args_list": [], 
+                                                                                                "sub_type": "TRIGGER_PLAYER"
+                                                                                            }, 
+                                                                                            {
+                                                                                                "arg_type": 100232, 
+                                                                                                "args_list": [
+                                                                                                    6
+                                                                                                ], 
+                                                                                                "sub_type": 1
+                                                                                            }
+                                                                                        ], 
+                                                                                        "sub_type": "GET_PLAYER_SAVE_DATA_FLOAT_VALUE"
+                                                                                    }
+                                                                                ], 
+                                                                                "bp": false, 
+                                                                                "element_id": 801964247931192, 
+                                                                                "enable": true
+                                                                            }, 
+                                                                            {
+                                                                                "action_type": "SET_VARIABLE", 
+                                                                                "args_list": [
+                                                                                    {
+                                                                                        "arg_type": 100030, 
+                                                                                        "args_list": [
+                                                                                            [
+                                                                                                "INTEGER", 
+                                                                                                "\u62bd\u5956\u6d88\u8017\u94dc\u94b1", 
+                                                                                                "local"
+                                                                                            ]
+                                                                                        ], 
+                                                                                        "sub_type": 1
+                                                                                    }, 
+                                                                                    {
+                                                                                        "arg_type": 100002, 
+                                                                                        "args_list": [
+                                                                                            {
+                                                                                                "arg_type": 100011, 
+                                                                                                "args_list": [
+                                                                                                    "f3423ee0-7a2f-4435-91d8-37de9f4f708c"
+                                                                                                ], 
+                                                                                                "sub_type": 1
+                                                                                            }, 
+                                                                                            {
+                                                                                                "arg_type": 100003, 
+                                                                                                "args_list": [
+                                                                                                    "\u62bd\u5956\u6d88\u8017\u94dc\u94b1"
+                                                                                                ], 
+                                                                                                "sub_type": 1
+                                                                                            }
+                                                                                        ], 
+                                                                                        "sub_type": "GET_INTEGER_TABLE_VAR_1D"
+                                                                                    }
+                                                                                ], 
+                                                                                "bp": false, 
+                                                                                "element_id": 801964247931203, 
+                                                                                "enable": true
+                                                                            }, 
+                                                                            {
+                                                                                "action_type": "SET_SAVE_DATA", 
+                                                                                "args_list": [
+                                                                                    {
+                                                                                        "arg_type": 100025, 
+                                                                                        "args_list": [], 
+                                                                                        "sub_type": "TRIGGER_PLAYER"
+                                                                                    }, 
+                                                                                    {
+                                                                                        "arg_type": 100232, 
+                                                                                        "args_list": [
+                                                                                            6
+                                                                                        ], 
+                                                                                        "sub_type": 1
+                                                                                    }, 
+                                                                                    {
+                                                                                        "arg_type": 100000, 
+                                                                                        "args_list": [
+                                                                                            {
+                                                                                                "arg_type": 100000, 
+                                                                                                "args_list": [
+                                                                                                    [
+                                                                                                        "FLOAT", 
+                                                                                                        "\u5b58\u6863\u7684\u94dc\u94b1", 
+                                                                                                        "local"
+                                                                                                    ]
+                                                                                                ], 
+                                                                                                "sub_type": 2
+                                                                                            }, 
+                                                                                            {
+                                                                                                "arg_type": 100017, 
+                                                                                                "args_list": [
+                                                                                                    "-"
+                                                                                                ], 
+                                                                                                "sub_type": 1
+                                                                                            }, 
+                                                                                            {
+                                                                                                "arg_type": 100002, 
+                                                                                                "args_list": [
+                                                                                                    [
+                                                                                                        "INTEGER", 
+                                                                                                        "\u62bd\u5956\u6d88\u8017\u94dc\u94b1", 
+                                                                                                        "local"
+                                                                                                    ]
+                                                                                                ], 
+                                                                                                "sub_type": 6
+                                                                                            }
+                                                                                        ], 
+                                                                                        "sub_type": "ARITHMETIC_OPERATION"
+                                                                                    }
+                                                                                ], 
+                                                                                "bp": false, 
+                                                                                "element_id": 1871974637847823, 
+                                                                                "enable": true
+                                                                            }, 
+                                                                            [
                                                                                 1253266816, 
                                                                                 "\u4e2d\u5956\u76f8\u5173\uff1a\u58f0\u97f3\uff0c\u753b\u9762\uff0c\u52a8\u753b", 
                                                                                 801964247, 
@@ -24091,67 +24228,6 @@
                                                                                 "element_id": 801964247921913, 
                                                                                 "enable": true
                                                                             }, 
-                                                                            [
-                                                                                1208098736, 
-                                                                                "####\u6d88\u8017\u94dc\u94b1###", 
-                                                                                801964247, 
-                                                                                "action_type"
-                                                                            ], 
-                                                                            {
-                                                                                "action_type": "SET_SAVE_DATA", 
-                                                                                "args_list": [
-                                                                                    {
-                                                                                        "arg_type": 100025, 
-                                                                                        "args_list": [], 
-                                                                                        "sub_type": "TRIGGER_PLAYER"
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100232, 
-                                                                                        "args_list": [
-                                                                                            6
-                                                                                        ], 
-                                                                                        "sub_type": 1
-                                                                                    }, 
-                                                                                    {
-                                                                                        "arg_type": 100000, 
-                                                                                        "args_list": [
-                                                                                            {
-                                                                                                "arg_type": 100000, 
-                                                                                                "args_list": [
-                                                                                                    [
-                                                                                                        "FLOAT", 
-                                                                                                        "\u5b58\u6863\u7684\u94dc\u94b1", 
-                                                                                                        "local"
-                                                                                                    ]
-                                                                                                ], 
-                                                                                                "sub_type": 2
-                                                                                            }, 
-                                                                                            {
-                                                                                                "arg_type": 100017, 
-                                                                                                "args_list": [
-                                                                                                    "-"
-                                                                                                ], 
-                                                                                                "sub_type": 1
-                                                                                            }, 
-                                                                                            {
-                                                                                                "arg_type": 100002, 
-                                                                                                "args_list": [
-                                                                                                    [
-                                                                                                        "INTEGER", 
-                                                                                                        "\u62bd\u5956\u6d88\u8017\u94dc\u94b1", 
-                                                                                                        "local"
-                                                                                                    ]
-                                                                                                ], 
-                                                                                                "sub_type": 6
-                                                                                            }
-                                                                                        ], 
-                                                                                        "sub_type": "ARITHMETIC_OPERATION"
-                                                                                    }
-                                                                                ], 
-                                                                                "bp": false, 
-                                                                                "element_id": 610521354000014, 
-                                                                                "enable": true
-                                                                            }, 
                                                                             {
                                                                                 "action_type": "IF_THEN_ELSE", 
                                                                                 "args_list": [
@@ -24188,7 +24264,7 @@
                                                                                                     }
                                                                                                 ], 
                                                                                                 "condition_type": "ITEM_TYPE_COMPARE", 
-                                                                                                "element_id": 801964247930926, 
+                                                                                                "element_id": 801964247931052, 
                                                                                                 "enable": true
                                                                                             }
                                                                                         ], 
@@ -24696,7 +24772,7 @@
                                                                                     }
                                                                                 ], 
                                                                                 "bp": false, 
-                                                                                "element_id": 801964247930916, 
+                                                                                "element_id": 801964247931033, 
                                                                                 "enable": true, 
                                                                                 "fake_op": [
                                                                                     2
@@ -24813,7 +24889,7 @@
                                                     {
                                                         "arg_type": 100003, 
                                                         "args_list": [
-                                                            "\u94dc\u94b1\u4e0d\u8db3\uff01"
+                                                            "#f70c18\u94dc\u94b1\u4e0d\u8db3\uff01"
                                                         ], 
                                                         "sub_type": 1
                                                     }
