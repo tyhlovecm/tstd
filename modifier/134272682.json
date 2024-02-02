@@ -57,7 +57,7 @@
                         {
                             "arg_type": 100300, 
                             "args_list": [
-                                "ATTR_BASE"
+                                "ATTR_BONUS"
                             ], 
                             "sub_type": 1
                         }, 
@@ -318,7 +318,7 @@
                         {
                             "arg_type": 100300, 
                             "args_list": [
-                                "ATTR_BASE"
+                                "ATTR_BONUS"
                             ], 
                             "sub_type": 1
                         }, 

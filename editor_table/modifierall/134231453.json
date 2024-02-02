@@ -6,6 +6,7 @@
         "items": []
     }, 
     "cycle_time": 0, 
+    "desc": -1990435045, 
     "description": -1990435045, 
     "disappear_when_dead": true, 
     "get_effect_list": [], 
@@ -16,7 +17,7 @@
     }, 
     "ign_inf_unit_type": 0, 
     "inf_unit_tag": [], 
-    "influence_rng": 99999.0, 
+    "influence_rng": 3000.0, 
     "is_influence_self": true, 
     "key": 134231453, 
     "kv": {}, 

@@ -1,4 +1,7 @@
 {
+    "1": 1, 
+    "5": 1, 
+    "6": 0, 
     "_custom_": true, 
     "_ref_": 134237915, 
     "attach_model_list": {
@@ -6,6 +9,7 @@
         "items": []
     }, 
     "cycle_time": 0, 
+    "desc": 1618269045, 
     "description": 1618269045, 
     "disappear_when_dead": true, 
     "get_effect_list": [
