@@ -599,7 +599,7 @@
     "material_color_intensity": 1.0, 
     "max_stock": 5, 
     "maximum_charging": 5, 
-    "maximum_stacking": 1, 
+    "maximum_stacking": 99, 
     "model": 200506, 
     "model_opacity": 1.0, 
     "name": 1412129747, 
