@@ -1272,6 +1272,10 @@
                     "\u5b58\u6863\u7684\u94dc\u94b1": 0.0, 
                     "\u83b7\u5f97\u94dc\u94b1": 0.0
                 }, 
+                "ITEM_NAME": {
+                    "\u5f85\u62bd\u5956\u54c1temp": 0, 
+                    "\u62bd\u4e2d\u7269\u54c1\u7c7b\u578b": 0
+                }, 
                 "PLAYER": {
                     "\u73a9\u5bb6": 0
                 }, 
@@ -1282,6 +1286,8 @@
             }, 
             "variable_length_dict": {
                 "\u5b58\u6863\u7684\u94dc\u94b1": 0, 
+                "\u5f85\u62bd\u5956\u54c1temp": 10, 
+                "\u62bd\u4e2d\u7269\u54c1\u7c7b\u578b": 0, 
                 "\u73a9\u5bb6": 0, 
                 "\u80dc\u5229": 0, 
                 "\u83b7\u5f97\u94dc\u94b1": 0, 
@@ -1653,7 +1659,8 @@
                 }, 
                 "INTEGER": {
                     "i": 0, 
-                    "length": 0
+                    "length": 0, 
+                    "\u62bd\u5956\u6d88\u8017\u94dc\u94b1": 0
                 }, 
                 "ITEM_NAME": {}, 
                 "PLAYER": {
@@ -1677,6 +1684,7 @@
                 "tempC2": 0, 
                 "tempP": 0, 
                 "\u5b58\u6863\u7684\u94dc\u94b1": 0, 
+                "\u62bd\u5956\u6d88\u8017\u94dc\u94b1": 0, 
                 "\u73a9\u5bb6": 0, 
                 "\u754c\u9762\u7ec4\u4ef6": 10, 
                 "\u83b7\u5f97\u94dc\u94b1": 0
@@ -3770,11 +3778,17 @@
         }, 
         "1871974637": {
             "variable_dict": {
+                "FLOAT": {
+                    "\u5b58\u6863\u7684\u94dc\u94b1": 0.0, 
+                    "\u83b7\u5f97\u94dc\u94b1": 0.0
+                }, 
                 "INTEGER": {
                     "i": 0, 
                     "key": 0, 
                     "\u5355\u82f1\u96c4\u76ae\u80a4\u6570\u91cf": 0, 
-                    "\u5956\u54c1\u4e0b\u6807": 0
+                    "\u5956\u54c1\u4e0b\u6807": 0, 
+                    "\u62bd\u5956\u6d88\u8017\u94dc\u94b1": 0, 
+                    "\u968f\u673a\u503c": 0
                 }, 
                 "ITEM_NAME": {
                     "\u5165\u53c2": 0, 
@@ -3784,16 +3798,24 @@
                 }, 
                 "PLAYER": {
                     "\u73a9\u5bb6": 0
+                }, 
+                "UI_COMP": {
+                    "\u4f59\u989d\u63a7\u4ef6": ""
                 }
             }, 
             "variable_length_dict": {
                 "i": 0, 
                 "key": 0, 
+                "\u4f59\u989d\u63a7\u4ef6": 0, 
                 "\u5165\u53c2": 0, 
                 "\u5355\u82f1\u96c4\u76ae\u80a4\u6570\u91cf": 0, 
                 "\u5956\u54c1\u4e0b\u6807": 0, 
+                "\u5b58\u6863\u7684\u94dc\u94b1": 0, 
+                "\u62bd\u5956\u6d88\u8017\u94dc\u94b1": 0, 
                 "\u73a9\u5bb6": 0, 
+                "\u83b7\u5f97\u94dc\u94b1": 0, 
                 "\u8fd4\u56de\u7269\u54c1": 0, 
+                "\u968f\u673a\u503c": 0, 
                 "\u968f\u673a\u529f\u6cd5\u6c60": 10, 
                 "\u968f\u673a\u76ae\u80a4\u6c60": 10
             }

@@ -20,7 +20,7 @@
     }, 
     "ign_inf_unit_type": 0, 
     "inf_unit_tag": [], 
-    "influence_rng": 99999.0, 
+    "influence_rng": 3000.0, 
     "is_influence_self": true, 
     "key": 134249845, 
     "kv": {}, 
