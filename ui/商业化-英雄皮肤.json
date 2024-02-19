@@ -37,10 +37,10 @@
         }, 
         {
             "adapter_option": [
-                true, 
                 false, 
-                true, 
-                true, 
+                false, 
+                false, 
+                false, 
                 0.0, 
                 1020.0, 
                 807.0, 

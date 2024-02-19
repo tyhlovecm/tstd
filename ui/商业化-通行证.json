@@ -37,7 +37,7 @@
         }, 
         {
             "adapter_option": [
-                true, 
+                false, 
                 false, 
                 false, 
                 false, 
@@ -117,10 +117,10 @@
         }, 
         {
             "adapter_option": [
-                true, 
-                true, 
-                true, 
-                true, 
+                false, 
+                false, 
+                false, 
+                false, 
                 102.0, 
                 102.0, 
                 77.5, 
@@ -548,9 +548,9 @@
         }, 
         {
             "adapter_option": [
-                true, 
                 false, 
-                true, 
+                false, 
+                false, 
                 false, 
                 165.0, 
                 165.0, 
@@ -559,25 +559,15 @@
             ], 
             "children": [
                 {
-                    "adapter_option": [
-                        true, 
-                        false, 
-                        true, 
-                        false, 
-                        0.0, 
-                        0.0, 
-                        0.0, 
-                        0.0
-                    ], 
                     "children": [
                         {
                             "adapter_option": [
-                                true, 
                                 false, 
-                                true, 
                                 false, 
-                                50.00006103515625, 
-                                564.9999389648438, 
+                                false, 
+                                false, 
+                                50.0, 
+                                565.0, 
                                 29.9998779296875, 
                                 1112.0001220703125
                             ], 
@@ -646,14 +636,14 @@
                                 "__tuple__": true, 
                                 "items": [
                                     98.9998779296875, 
-                                    632.4999389648438
+                                    632.5
                                 ]
                             }, 
                             "pos_percent": {
                                 "__tuple__": true, 
                                 "items": [
                                     7.734365463256836, 
-                                    84.3333251953125
+                                    84.33333333333334
                                 ]
                             }, 
                             "size": {
@@ -668,9 +658,9 @@
                         }, 
                         {
                             "adapter_option": [
-                                true, 
                                 false, 
-                                true, 
+                                false, 
+                                false, 
                                 false, 
                                 142.0, 
                                 558.0, 
@@ -839,9 +829,9 @@
                         }, 
                         {
                             "adapter_option": [
-                                true, 
                                 false, 
-                                true, 
+                                false, 
+                                false, 
                                 false, 
                                 50.0, 
                                 665.0, 
@@ -1052,10 +1042,10 @@
                         }, 
                         {
                             "adapter_option": [
-                                true, 
                                 false, 
                                 false, 
-                                true, 
+                                false, 
+                                false, 
                                 600.0, 
                                 100.0, 
                                 780.0, 
@@ -1225,7 +1215,7 @@
                             "adapter_option": [
                                 false, 
                                 false, 
-                                true, 
+                                false, 
                                 false, 
                                 219.5, 
                                 219.5, 
@@ -4717,9 +4707,9 @@
         }, 
         {
             "adapter_option": [
-                true, 
                 false, 
-                true, 
+                false, 
+                false, 
                 false, 
                 165.0, 
                 165.0, 
@@ -7872,9 +7862,9 @@
         }, 
         {
             "adapter_option": [
-                true, 
                 false, 
-                true, 
+                false, 
+                false, 
                 false, 
                 165.0, 
                 165.0, 
@@ -10748,9 +10738,9 @@
         }, 
         {
             "adapter_option": [
-                true, 
                 false, 
-                true, 
+                false, 
+                false, 
                 false, 
                 165.0, 
                 165.0, 
@@ -11250,8 +11240,8 @@
             "adapter_option": [
                 false, 
                 false, 
-                true, 
-                true, 
+                false, 
+                false, 
                 490.0, 
                 490.0, 
                 710.0, 

@@ -37,10 +37,10 @@
         }, 
         {
             "adapter_option": [
-                true, 
                 false, 
-                true, 
-                true, 
+                false, 
+                false, 
+                false, 
                 0.0, 
                 1020.0, 
                 807.0, 
@@ -117,10 +117,10 @@
         }, 
         {
             "adapter_option": [
-                true, 
                 false, 
-                true, 
-                true, 
+                false, 
+                false, 
+                false, 
                 129.99993896484375, 
                 80.00006103515625, 
                 310.0, 
@@ -128,16 +128,6 @@
             ], 
             "children": [
                 {
-                    "adapter_option": [
-                        true, 
-                        false, 
-                        false, 
-                        false, 
-                        0.0, 
-                        0.0, 
-                        0.0, 
-                        0.0
-                    ], 
                     "children": [
                         {
                             "children": [
@@ -4396,16 +4386,6 @@
                     "uid": "63438d65-c608-422b-abc2-9983588bd3c5"
                 }, 
                 {
-                    "adapter_option": [
-                        true, 
-                        false, 
-                        false, 
-                        false, 
-                        0.0, 
-                        0.0, 
-                        0.0, 
-                        0.0
-                    ], 
                     "children": [
                         {
                             "adapter_option": [
@@ -4956,16 +4936,6 @@
                     "visible": false
                 }, 
                 {
-                    "adapter_option": [
-                        true, 
-                        false, 
-                        false, 
-                        false, 
-                        0.0, 
-                        0.0, 
-                        0.0, 
-                        0.0
-                    ], 
                     "children": [
                         {
                             "children": [
