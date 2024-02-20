@@ -15,10 +15,10 @@
             "children": [
                 {
                     "adapter_option": [
-                        true, 
-                        true, 
-                        true, 
-                        true, 
+                        false, 
+                        false, 
+                        false, 
+                        false, 
                         302.5, 
                         302.5, 
                         674.5, 

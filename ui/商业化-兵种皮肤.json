@@ -37,10 +37,10 @@
         }, 
         {
             "adapter_option": [
-                true, 
                 false, 
-                true, 
-                true, 
+                false, 
+                false, 
+                false, 
                 0.0, 
                 1020.0, 
                 807.0, 
@@ -77,10 +77,10 @@
         }, 
         {
             "adapter_option": [
-                true, 
                 false, 
                 false, 
-                true, 
+                false, 
+                false, 
                 20.0, 
                 1009.0, 
                 1809.0, 
@@ -117,10 +117,10 @@
         }, 
         {
             "adapter_option": [
-                true, 
                 false, 
                 false, 
-                true, 
+                false, 
+                false, 
                 80.0, 
                 960.0, 
                 1545.0, 
@@ -299,9 +299,9 @@
         }, 
         {
             "adapter_option": [
-                true, 
                 false, 
-                true, 
+                false, 
+                false, 
                 false, 
                 130.0, 
                 910.0, 
@@ -491,10 +491,10 @@
         }, 
         {
             "adapter_option": [
-                true, 
                 false, 
-                true, 
-                true, 
+                false, 
+                false, 
+                false, 
                 130.0, 
                 80.0, 
                 310.0, 
@@ -503,7 +503,7 @@
             "children": [
                 {
                     "adapter_option": [
-                        true, 
+                        false, 
                         false, 
                         false, 
                         false, 
@@ -742,9 +742,9 @@
         {
             "adapter_option": [
                 false, 
-                true, 
                 false, 
-                true, 
+                false, 
+                false, 
                 452.5, 
                 452.5, 
                 760.0, 
@@ -1492,12 +1492,12 @@
                 }, 
                 {
                     "adapter_option": [
-                        true, 
                         false, 
-                        true, 
                         false, 
-                        -689.0, 
-                        864.0, 
+                        false, 
+                        false, 
+                        175.0, 
+                        0.0, 
                         12.5, 
                         12.5
                     ], 
@@ -1517,14 +1517,14 @@
                         "__tuple__": true, 
                         "items": [
                             200.0, 
-                            864.0
+                            0.0
                         ]
                     }, 
                     "pos_percent": {
                         "__tuple__": true, 
                         "items": [
                             50.0, 
-                            493.71428571428567
+                            0.0
                         ]
                     }, 
                     "size": {
