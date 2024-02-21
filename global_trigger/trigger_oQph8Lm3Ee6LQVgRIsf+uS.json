@@ -572,6 +572,72 @@
                                             "arg_type": 100177, 
                                             "args_list": [
                                                 {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "\u656c\u8bf7\u671f\u5f85!"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100070, 
+                                                    "args_list": [
+                                                        "92a6dedc-5d95-4e52-bfda-1579aa7de8b1"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100025, 
+                                                    "args_list": [
+                                                        [
+                                                            "PLAYER", 
+                                                            "wj", 
+                                                            "local"
+                                                        ]
+                                                    ], 
+                                                    "sub_type": "VARIABLE"
+                                                }, 
+                                                {
+                                                    "arg_type": 100000, 
+                                                    "args_list": [
+                                                        10.0
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100002, 
+                                                    "args_list": [
+                                                        10
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        ""
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "op_arg_enable": [
+                                                true
+                                            ], 
+                                            "sub_type": "60d398915b4e11ed831730d042f7e2bd"
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "call_rt_arg_idxes": [], 
+                                    "element_id": 392417547000025, 
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "CALL_TRIGGER_FUNC", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100177, 
+                                            "args_list": [
+                                                {
                                                     "arg_type": 100025, 
                                                     "args_list": [], 
                                                     "sub_type": "TRIGGER_PLAYER"
@@ -599,7 +665,7 @@
                                     "bp": false, 
                                     "call_rt_arg_idxes": [], 
                                     "element_id": 392417547000021, 
-                                    "enable": true
+                                    "enable": false
                                 }
                             ], 
                             "sub_type": 1

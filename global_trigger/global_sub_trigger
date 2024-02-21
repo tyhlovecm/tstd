@@ -22624,37 +22624,74 @@
     "760414484": {
         "action": [
             {
-                "action_type": "SET_VARIABLE", 
+                "action_type": "IF_THEN_ELSE", 
                 "args_list": [
                     {
-                        "arg_type": 100030, 
+                        "arg_type": 100021, 
                         "args_list": [
                             {
-                                "__tuple__": true, 
-                                "items": [
-                                    "INTEGER", 
-                                    "\u4ef7\u4f4d", 
-                                    "local"
-                                ]
+                                "args_list": [
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [], 
+                                                "sub_type": "GET_STR_FROM_EVENT"
+                                            }, 
+                                            {
+                                                "arg_type": 100002, 
+                                                "args_list": [
+                                                    0
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100002, 
+                                                "args_list": [
+                                                    11
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "sub_type": "EXTRACT_STR"
+                                    }, 
+                                    {
+                                        "arg_type": 100035, 
+                                        "args_list": [
+                                            "=="
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            "greedisgood"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "condition_type": "STRING_COMPARE", 
+                                "element_id": 760414484000002, 
+                                "enable": true
                             }
                         ], 
                         "sub_type": 1
                     }, 
                     {
-                        "arg_type": 100002, 
+                        "arg_type": 100022, 
                         "args_list": [
                             {
-                                "arg_type": 100003, 
+                                "action_type": "SET_VARIABLE", 
                                 "args_list": [
                                     {
-                                        "arg_type": 100003, 
-                                        "args_list": [], 
-                                        "sub_type": "GET_STR_FROM_EVENT"
-                                    }, 
-                                    {
-                                        "arg_type": 100002, 
+                                        "arg_type": 100030, 
                                         "args_list": [
-                                            12
+                                            [
+                                                "INTEGER", 
+                                                "\u4ef7\u4f4d", 
+                                                "local"
+                                            ]
                                         ], 
                                         "sub_type": 1
                                     }, 
@@ -22663,108 +22700,730 @@
                                         "args_list": [
                                             {
                                                 "arg_type": 100003, 
-                                                "args_list": [], 
-                                                "sub_type": "GET_STR_FROM_EVENT"
+                                                "args_list": [
+                                                    {
+                                                        "arg_type": 100003, 
+                                                        "args_list": [], 
+                                                        "sub_type": "GET_STR_FROM_EVENT"
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100002, 
+                                                        "args_list": [
+                                                            12
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100002, 
+                                                        "args_list": [
+                                                            {
+                                                                "arg_type": 100003, 
+                                                                "args_list": [], 
+                                                                "sub_type": "GET_STR_FROM_EVENT"
+                                                            }
+                                                        ], 
+                                                        "sub_type": "LENGTH_OF_STR"
+                                                    }
+                                                ], 
+                                                "sub_type": "EXTRACT_STR"
                                             }
                                         ], 
-                                        "sub_type": "LENGTH_OF_STR"
+                                        "sub_type": "STR_TO_INT"
                                     }
                                 ], 
-                                "sub_type": "EXTRACT_STR"
+                                "bp": false, 
+                                "element_id": 760414484000003, 
+                                "enable": true
+                            }, 
+                            {
+                                "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100175, 
+                                        "args_list": [
+                                            3
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    "\u91d1\u5e01\uff1a"
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "arg_type": 100002, 
+                                                        "args_list": [
+                                                            [
+                                                                "INTEGER", 
+                                                                "\u4ef7\u4f4d", 
+                                                                "local"
+                                                            ]
+                                                        ], 
+                                                        "sub_type": 6
+                                                    }
+                                                ], 
+                                                "sub_type": "ANY_VAR_TO_STR"
+                                            }
+                                        ], 
+                                        "op_arg": [
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null
+                                        ], 
+                                        "op_arg_enable": [
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false
+                                        ], 
+                                        "sub_type": "STR_JOIN"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 760414484000009, 
+                                "enable": false
+                            }, 
+                            {
+                                "action_type": "ROLE_CHANGE_RES", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100025, 
+                                        "args_list": [], 
+                                        "sub_type": "TRIGGER_PLAYER"
+                                    }, 
+                                    {
+                                        "arg_type": 100037, 
+                                        "args_list": [
+                                            "official_res_1"
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100002, 
+                                        "args_list": [
+                                            [
+                                                "INTEGER", 
+                                                "\u4ef7\u4f4d", 
+                                                "local"
+                                            ], 
+                                            null
+                                        ], 
+                                        "sub_type": 6
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 760414484000004, 
+                                "enable": true
                             }
-                        ], 
-                        "sub_type": "STR_TO_INT"
-                    }
-                ], 
-                "bp": false, 
-                "element_id": 760414484000003, 
-                "enable": true
-            }, 
-            {
-                "action_type": "ROLE_CHANGE_RES", 
-                "args_list": [
-                    {
-                        "arg_type": 100025, 
-                        "args_list": [], 
-                        "sub_type": "TRIGGER_PLAYER"
-                    }, 
-                    {
-                        "arg_type": 100037, 
-                        "args_list": [
-                            "official_res_1"
                         ], 
                         "sub_type": 1
                     }, 
                     {
-                        "arg_type": 100002, 
-                        "args_list": [
-                            {
-                                "__tuple__": true, 
-                                "items": [
-                                    "INTEGER", 
-                                    "\u4ef7\u4f4d", 
-                                    "local"
-                                ]
-                            }, 
-                            null
-                        ], 
-                        "sub_type": 6
+                        "arg_type": 100022, 
+                        "args_list": [], 
+                        "sub_type": 1
                     }
                 ], 
                 "bp": false, 
-                "element_id": 760414484000004, 
-                "enable": true
+                "element_id": 760414484000013, 
+                "enable": true, 
+                "fake_op": [
+                    2
+                ]
+            }, 
+            {
+                "action_type": "IF_THEN_ELSE", 
+                "args_list": [
+                    {
+                        "arg_type": 100021, 
+                        "args_list": [
+                            {
+                                "args_list": [
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [], 
+                                                "sub_type": "GET_STR_FROM_EVENT"
+                                            }, 
+                                            {
+                                                "arg_type": 100002, 
+                                                "args_list": [
+                                                    0
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100002, 
+                                                "args_list": [
+                                                    7
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "sub_type": "EXTRACT_STR"
+                                    }, 
+                                    {
+                                        "arg_type": 100035, 
+                                        "args_list": [
+                                            "=="
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            "victory"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "condition_type": "STRING_COMPARE", 
+                                "element_id": 760414484000390, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [
+                            {
+                                "action_type": "SET_VARIABLE", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100002, 
+                                        "args_list": [
+                                            [
+                                                "INTEGER", 
+                                                "\u73a9\u5bb6\u6570"
+                                            ]
+                                        ], 
+                                        "sub_type": 6
+                                    }, 
+                                    {
+                                        "arg_type": 100002, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "arg_type": 100003, 
+                                                        "args_list": [], 
+                                                        "sub_type": "GET_STR_FROM_EVENT"
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100002, 
+                                                        "args_list": [
+                                                            8
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100002, 
+                                                        "args_list": [
+                                                            {
+                                                                "arg_type": 100003, 
+                                                                "args_list": [], 
+                                                                "sub_type": "GET_STR_FROM_EVENT"
+                                                            }
+                                                        ], 
+                                                        "sub_type": "LENGTH_OF_STR"
+                                                    }
+                                                ], 
+                                                "sub_type": "EXTRACT_STR"
+                                            }
+                                        ], 
+                                        "sub_type": "STR_TO_INT"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 760414484000454, 
+                                "enable": true
+                            }, 
+                            {
+                                "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100175, 
+                                        "args_list": [
+                                            3
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    "\u4f5c\u5f0a\u6307\u4ee4\u80dc\u5229\uff1a"
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "arg_type": 100002, 
+                                                        "args_list": [
+                                                            {
+                                                                "__tuple__": true, 
+                                                                "items": [
+                                                                    "INTEGER", 
+                                                                    "\u73a9\u5bb6\u6570"
+                                                                ]
+                                                            }
+                                                        ], 
+                                                        "sub_type": 6
+                                                    }
+                                                ], 
+                                                "sub_type": "ANY_VAR_TO_STR"
+                                            }
+                                        ], 
+                                        "op_arg": [
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null
+                                        ], 
+                                        "op_arg_enable": [
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false
+                                        ], 
+                                        "sub_type": "STR_JOIN"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 760414484000422, 
+                                "enable": true
+                            }, 
+                            {
+                                "action_type": "CALL_TRIGGER_FUNC", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100177, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100001, 
+                                                "args_list": [
+                                                    true
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100025, 
+                                                "args_list": [], 
+                                                "sub_type": "TRIGGER_PLAYER"
+                                            }
+                                        ], 
+                                        "op_arg": [], 
+                                        "op_arg_enable": [], 
+                                        "sub_type": "a3720bdeb83211ee8bc1581122c7feb9"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "call_rt_arg_idxes": [], 
+                                "element_id": 40096020000077, 
+                                "enable": true
+                            }, 
+                            {
+                                "action_type": "CALL_TRIGGER_FUNC", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100177, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100025, 
+                                                "args_list": [], 
+                                                "sub_type": "TRIGGER_PLAYER"
+                                            }, 
+                                            {
+                                                "arg_type": 100002, 
+                                                "args_list": [
+                                                    0
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100001, 
+                                                "args_list": [
+                                                    true
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "op_arg": [], 
+                                        "op_arg_enable": [], 
+                                        "sub_type": "1e53284fb9cb11eea45d581122c7feb9"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "call_rt_arg_idxes": [], 
+                                "element_id": 760414484000449, 
+                                "enable": true
+                            }, 
+                            {
+                                "action_type": "CALL_TRIGGER_FUNC", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100177, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100025, 
+                                                "args_list": [], 
+                                                "sub_type": "TRIGGER_PLAYER"
+                                            }, 
+                                            {
+                                                "arg_type": 100001, 
+                                                "args_list": [
+                                                    true
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "op_arg": [], 
+                                        "op_arg_enable": [], 
+                                        "sub_type": "5b702ef0bb5f11ee93a5581122c7feb9"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "call_rt_arg_idxes": [], 
+                                "element_id": 760414484000556, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 760414484000386, 
+                "enable": true, 
+                "fake_op": [
+                    2
+                ]
+            }, 
+            {
+                "action_type": "IF_THEN_ELSE", 
+                "args_list": [
+                    {
+                        "arg_type": 100021, 
+                        "args_list": [
+                            {
+                                "args_list": [
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [], 
+                                                "sub_type": "GET_STR_FROM_EVENT"
+                                            }, 
+                                            {
+                                                "arg_type": 100002, 
+                                                "args_list": [
+                                                    0
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100002, 
+                                                "args_list": [
+                                                    4
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "sub_type": "EXTRACT_STR"
+                                    }, 
+                                    {
+                                        "arg_type": 100035, 
+                                        "args_list": [
+                                            "=="
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            "fail"
+                                        ], 
+                                        "sub_type": 1
+                                    }
+                                ], 
+                                "condition_type": "STRING_COMPARE", 
+                                "element_id": 760414484000475, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [
+                            {
+                                "action_type": "SET_VARIABLE", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100002, 
+                                        "args_list": [
+                                            [
+                                                "INTEGER", 
+                                                "\u73a9\u5bb6\u6570"
+                                            ]
+                                        ], 
+                                        "sub_type": 6
+                                    }, 
+                                    {
+                                        "arg_type": 100002, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "arg_type": 100003, 
+                                                        "args_list": [], 
+                                                        "sub_type": "GET_STR_FROM_EVENT"
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100002, 
+                                                        "args_list": [
+                                                            5
+                                                        ], 
+                                                        "sub_type": 1
+                                                    }, 
+                                                    {
+                                                        "arg_type": 100002, 
+                                                        "args_list": [
+                                                            {
+                                                                "arg_type": 100003, 
+                                                                "args_list": [], 
+                                                                "sub_type": "GET_STR_FROM_EVENT"
+                                                            }
+                                                        ], 
+                                                        "sub_type": "LENGTH_OF_STR"
+                                                    }
+                                                ], 
+                                                "sub_type": "EXTRACT_STR"
+                                            }
+                                        ], 
+                                        "sub_type": "STR_TO_INT"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 760414484000491, 
+                                "enable": true
+                            }, 
+                            {
+                                "action_type": "PRINT_MESSAGE_ACTION_TO_DIALOG", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100175, 
+                                        "args_list": [
+                                            3
+                                        ], 
+                                        "sub_type": 1
+                                    }, 
+                                    {
+                                        "arg_type": 100003, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    "\u4f5c\u5f0a\u6307\u4ee4\u5931\u8d25\uff1a"
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100003, 
+                                                "args_list": [
+                                                    {
+                                                        "arg_type": 100002, 
+                                                        "args_list": [
+                                                            [
+                                                                "INTEGER", 
+                                                                "\u73a9\u5bb6\u6570"
+                                                            ]
+                                                        ], 
+                                                        "sub_type": 6
+                                                    }
+                                                ], 
+                                                "sub_type": "ANY_VAR_TO_STR"
+                                            }
+                                        ], 
+                                        "op_arg": [
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null, 
+                                            null
+                                        ], 
+                                        "op_arg_enable": [
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false, 
+                                            false
+                                        ], 
+                                        "sub_type": "STR_JOIN"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "element_id": 760414484000566, 
+                                "enable": true
+                            }, 
+                            {
+                                "action_type": "CALL_TRIGGER_FUNC", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100177, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100001, 
+                                                "args_list": [
+                                                    false
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100025, 
+                                                "args_list": [], 
+                                                "sub_type": "TRIGGER_PLAYER"
+                                            }
+                                        ], 
+                                        "op_arg": [], 
+                                        "op_arg_enable": [], 
+                                        "sub_type": "a3720bdeb83211ee8bc1581122c7feb9"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "call_rt_arg_idxes": [], 
+                                "element_id": 760414484000576, 
+                                "enable": true
+                            }, 
+                            {
+                                "action_type": "CALL_TRIGGER_FUNC", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100177, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100025, 
+                                                "args_list": [], 
+                                                "sub_type": "TRIGGER_PLAYER"
+                                            }, 
+                                            {
+                                                "arg_type": 100002, 
+                                                "args_list": [
+                                                    1
+                                                ], 
+                                                "sub_type": 1
+                                            }, 
+                                            {
+                                                "arg_type": 100001, 
+                                                "args_list": [
+                                                    false
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "op_arg": [], 
+                                        "op_arg_enable": [], 
+                                        "sub_type": "1e53284fb9cb11eea45d581122c7feb9"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "call_rt_arg_idxes": [], 
+                                "element_id": 760414484000521, 
+                                "enable": true
+                            }, 
+                            {
+                                "action_type": "CALL_TRIGGER_FUNC", 
+                                "args_list": [
+                                    {
+                                        "arg_type": 100177, 
+                                        "args_list": [
+                                            {
+                                                "arg_type": 100025, 
+                                                "args_list": [], 
+                                                "sub_type": "TRIGGER_PLAYER"
+                                            }, 
+                                            {
+                                                "arg_type": 100001, 
+                                                "args_list": [
+                                                    false
+                                                ], 
+                                                "sub_type": 1
+                                            }
+                                        ], 
+                                        "op_arg": [], 
+                                        "op_arg_enable": [], 
+                                        "sub_type": "5b702ef0bb5f11ee93a5581122c7feb9"
+                                    }
+                                ], 
+                                "bp": false, 
+                                "call_rt_arg_idxes": [], 
+                                "element_id": 760414484000507, 
+                                "enable": true
+                            }
+                        ], 
+                        "sub_type": 1
+                    }, 
+                    {
+                        "arg_type": 100022, 
+                        "args_list": [], 
+                        "sub_type": 1
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 760414484000471, 
+                "enable": true, 
+                "fake_op": [
+                    2
+                ]
             }
         ], 
         "call_enabled": true, 
-        "condition": [
-            {
-                "args_list": [
-                    {
-                        "arg_type": 100003, 
-                        "args_list": [
-                            {
-                                "arg_type": 100003, 
-                                "args_list": [], 
-                                "sub_type": "GET_STR_FROM_EVENT"
-                            }, 
-                            {
-                                "arg_type": 100002, 
-                                "args_list": [
-                                    0
-                                ], 
-                                "sub_type": 1
-                            }, 
-                            {
-                                "arg_type": 100002, 
-                                "args_list": [
-                                    11
-                                ], 
-                                "sub_type": 1
-                            }
-                        ], 
-                        "sub_type": "EXTRACT_STR"
-                    }, 
-                    {
-                        "arg_type": 100035, 
-                        "args_list": [
-                            "=="
-                        ], 
-                        "sub_type": 1
-                    }, 
-                    {
-                        "arg_type": 100003, 
-                        "args_list": [
-                            "greedisgood"
-                        ], 
-                        "sub_type": 1
-                    }
-                ], 
-                "condition_type": "STRING_COMPARE", 
-                "element_id": 760414484000002, 
-                "enable": true
-            }
-        ], 
+        "condition": [], 
         "enabled": false, 
         "event": [
             {
@@ -70806,7 +71465,7 @@
                 "enable": true
             }
         ], 
-        "call_enabled": true, 
+        "call_enabled": false, 
         "condition": [
             {
                 "args_list": [

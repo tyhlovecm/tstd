@@ -12429,9 +12429,24 @@
                                         {
                                             "arg_type": 100025, 
                                             "args_list": [
-                                                2
+                                                {
+                                                    "arg_type": 100027, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "PLAYER_GROUP", 
+                                                                "Force1"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 14
+                                                }
                                             ], 
-                                            "sub_type": 1
+                                            "call_rt_index": 0, 
+                                            "op_arg": [], 
+                                            "op_arg_enable": [], 
+                                            "sub_type": "6294b040942011eebdf5e0d55efc1ecb"
                                         }
                                     ], 
                                     "bp": false, 
